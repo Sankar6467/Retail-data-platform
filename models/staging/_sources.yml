@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RETAIL_RAW_DB
+    schema: RAW
+    tables:
+      - name: customers
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}
+      - name: products
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}
+      - name: stores
+      - name: orders
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}
+      - name: order_items
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}
+      - name: inventory_snapshots
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}

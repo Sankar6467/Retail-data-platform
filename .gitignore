@@ -1,5 +1,14 @@
-# you shouldn't commit these into source control
-# these are the default directory names, adjust/add to fit your needs
+# Secrets - never commit real credentials
+.env
+profiles.yml
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# dbt
 target/
 dbt_packages/
 logs/
