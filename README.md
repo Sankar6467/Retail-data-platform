@@ -1,4 +1,4 @@
-# Retail Data Platform — Assessment Deliverable
+# Retail Data Platform - Deliverable
 
 End-to-end retail sales data platform: Python ingests source files into
 Snowflake, dbt Cloud transforms RAW into a governed star schema, and the
@@ -12,7 +12,7 @@ build is validated + deployed via a GitHub Actions CI/CD pipeline.
 |----------------|------------------------------------|-----------------------------------------------------|
 | Source systems | CSV files (customers, orders, ...) | Stand-in for POS / e-commerce / WMS extracts        |
 | Ingestion      | Python (pandas, snowflake-connector) | Extract, validate, load raw files, audit-log runs |
-| Warehouse      | Snowflake                          | RAW landing + STAGING/INTERMEDIATE/ANALYTICS layers |
+| Warehouse      | Snowflake                          | 3 databases by pipeline stage: RETAIL_RAW_DB (RAW/AUDIT), RETAIL_STAGING_DB (STAGING/INTERMEDIATE/SNAPSHOTS), RETAIL_ANALYTICS_DB (ANALYTICS) |
 | Transformation | dbt (dbt Cloud)                    | staging → intermediate → marts, snapshots, tests    |
 | Governance     | Snowflake RBAC + tagging           | Least-privilege roles, PII tagging, resource monitor |
 | CI/CD          | GitHub Actions                     | Python unit tests + dbt build/test on every push     |
@@ -30,9 +30,10 @@ retail_data_platform/
 ├── README.md
 ├── .gitignore
 ├── sql/
-│   ├── 01_setup_warehouses_roles_schemas.sql   # warehouses, roles, schemas, governance
-│   ├── 02_ddl_raw_and_audit.sql                # RAW landing tables + AUDIT tables
-│   └── 03_ddl_business_layer_star_schema.sql   # reference DDL for the ANALYTICS star schema
+│   ├── 01_setup_warehouses_roles_schemas.sql          # warehouses, roles, schemas, governance
+│   ├── 01b_migrate_multi_db_and_developer_role.sql    # migration: splits into RETAIL_RAW_DB/RETAIL_STAGING_DB/RETAIL_ANALYTICS_DB + RETAIL_DEVELOPER role
+│   ├── 02_ddl_raw_and_audit.sql                       # RAW landing tables + AUDIT tables (in RETAIL_RAW_DB)
+│   └── 03_ddl_business_layer_star_schema.sql          # reference DDL for the ANALYTICS star schema (in RETAIL_ANALYTICS_DB)
 ├── data/
 │   ├── generate_sample_data.py                 # seeded generator for the CSVs below
 │   ├── customers.csv                           # 500 rows
@@ -42,9 +43,11 @@ retail_data_platform/
 │   ├── order_items.csv                          # 10,960 rows
 │   └── inventory_snapshots.csv                  # 21,600 rows
 ├── diagrams/
-│   ├── generate_diagrams.py                    # regenerates both PNGs below
+│   ├── generate_diagrams.py                    # regenerates the ER diagrams below
+│   ├── generate_architecture_and_dfd.py        # regenerates the architecture/DFD diagram below
 │   ├── source_erd.png                          # RAW layer entity relationships
-│   └── star_schema_erd.png                     # ANALYTICS star schema
+│   ├── star_schema_erd.png                     # ANALYTICS star schema
+│   └── architecture_diagram.png                # end-to-end architecture diagram
 ├── ingestion/                                   # Python extract/validate/load framework
 │   ├── config.py                               # Snowflake config + per-file ingestion contracts
 │   ├── extract.py
@@ -70,4 +73,3 @@ retail_data_platform/
     ├── observability.md                         # logging/audit/alerting approach
     ├── benchmarking_and_roadmap.md              # benchmarking process + roadmap
     └── build_*.py                               # generates the .docx deliverables from this repo
-
