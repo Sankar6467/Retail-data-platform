@@ -1,8 +1,9 @@
-# Secrets - never commit real credentials
+# Secrets - never commit credentials
 .env
 profiles.yml
 
 # Python
+.venv/
 venv/
 __pycache__/
 *.pyc
@@ -12,4 +13,7 @@ __pycache__/
 target/
 dbt_packages/
 logs/
-dbt_internal_packages/
+
+# OS / Editor
+.vscode/
+.DS_Store

@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email,phone,address_line1,city,state,postal_code,country,loyalty_tier,signup_date,updated_at
+CUST000001,Ananya,Brown,ananya.brown1@example.com,+1-892-958-9935,1524 2nd Ave,New York,NY,65302,USA,BRONZE,2025-02-27,2025-06-11 11:14:08
+CUST000002,Robert,Miller,robert.miller2@example.com,+1-933-865-9928,6973 Oak Ave,Houston,TX,68878,USA,SILVER,2026-06-13,2026-06-25 17:01:35
+CUST000003,Mei,Smith,mei.smith3@example.com,+1-359-420-6514,1774 Main St,Boston,MA,59797,USA,BRONZE,2024-07-05,2025-04-15 19:27:21
+CUST000004,Sofia,Anderson,sofia.anderson4@example.com,+1-749-327-7201,1391 2nd Ave,Austin,TX,48427,USA,GOLD,2025-02-05,2026-05-21 20:02:46
+CUST000005,Karen,Anderson,karen.anderson5@example.com,+1-433-991-5741,1407 Oak Ave,Austin,TX,23238,USA,BRONZE,2024-09-10,2026-07-19 19:04:02
+CUST000006,Joseph,Wang,joseph.wang6@example.com,+1-886-473-2169,2903 2nd Ave,Atlanta,GA,42087,USA,BRONZE,2025-08-30,2025-12-15 10:23:22
+CUST000007,Richard,Rodriguez,richard.rodriguez7@example.com,+1-434-232-6168,6672 Elm St,Miami,FL,18675,USA,BRONZE,2024-11-05,2025-01-01 18:20:53
+CUST000008,Charles,Kim,charles.kim8@example.com,+1-669-346-5339,2387 Oak Ave,Philadelphia,PA,83579,USA,SILVER,2024-10-22,2026-08-11 18:31:25
+CUST000009,Arjun,Sharma,arjun.sharma9@example.com,+1-705-293-1771,1896 Oak Ave,San Antonio,TX,92240,USA,BRONZE,2025-11-08,2026-07-26 13:14:08
+CUST000010,Rahul,Thomas,rahul.thomas10@example.com,+1-741-457-1188,1976 2nd Ave,Austin,TX,44973,USA,GOLD,2023-12-22,2025-04-14 14:24:38
+CUST000011,William,Brown,william.brown11@example.com,+1-936-469-9201,3027 2nd Ave,Phoenix,AZ,23947,USA,GOLD,2026-01-20,2026-07-23 10:29:00
+CUST000012,Elizabeth,Wang,elizabeth.wang12@example.com,+1-752-997-9689,109 2nd Ave,Dallas,TX,52487,USA,SILVER,2024-09-24,2025-03-08 10:23:48
+CUST000013,Patricia,Anderson,patricia.anderson13@example.com,+1-780-280-2403,8062 Main St,Miami,FL,79822,USA,GOLD,2025-05-04,2026-07-27 11:03:15
+CUST000014,John,Nguyen,john.nguyen14@example.com,+1-633-416-9835,3395 Elm St,San Diego,CA,62296,USA,PLATINUM,2024-07-17,2026-03-30 12:33:55
+CUST000015,Ananya,Anderson,ananya.anderson15@example.com,+1-265-546-1344,9738 2nd Ave,San Diego,CA,40161,USA,SILVER,2026-07-08,2026-07-22 15:07:15
+CUST000016,James,Williams,james.williams16@example.com,+1-538-272-9423,3999 Elm St,Denver,CO,97684,USA,SILVER,2023-12-12,2024-01-13 11:04:57
+CUST000017,Sarah,Jones,sarah.jones17@example.com,+1-394-296-2588,7162 Elm St,Denver,CO,65519,USA,BRONZE,2026-04-08,2026-07-21 11:50:30
+CUST000018,Sofia,Lee,sofia.lee18@example.com,+1-311-454-4139,3216 2nd Ave,New York,NY,68800,USA,BRONZE,2024-03-02,2025-02-12 08:25:46
+CUST000019,Jennifer,Rodriguez,jennifer.rodriguez19@example.com,+1-763-300-1828,8956 Main St,San Diego,CA,22224,USA,GOLD,2025-01-06,2026-04-04 21:59:04
+CUST000020,Sofia,Davis,sofia.davis20@example.com,+1-260-368-7209,135 Maple Dr,Chicago,IL,44760,USA,GOLD,2025-11-23,2026-06-16 15:30:13
+CUST000021,Mei,Moore,mei.moore21@example.com,+1-877-935-8973,2636 Oak Ave,Phoenix,AZ,48890,USA,BRONZE,2025-12-27,2026-05-18 19:46:50
+CUST000022,Mary,Sharma,mary.sharma22@example.com,+1-798-688-9238,8801 Oak Ave,Denver,CO,17455,USA,PLATINUM,2023-12-16,2024-02-05 19:20:03
+CUST000023,Robert,Garcia,robert.garcia23@example.com,+1-322-783-5033,9585 2nd Ave,Los Angeles,CA,15209,USA,SILVER,2023-12-31,2025-02-16 18:55:15
+CUST000024,Susan,Nguyen,susan.nguyen24@example.com,+1-885-933-6147,4010 Elm St,Austin,TX,61876,USA,BRONZE,2026-07-19,2026-07-25 13:59:16
+CUST000025,Ananya,Martinez,ananya.martinez25@example.com,+1-669-836-2638,1300 2nd Ave,San Diego,CA,37938,USA,SILVER,2025-05-22,2025-05-26 20:59:04
+CUST000026,John,Anderson,john.anderson26@example.com,+1-648-756-5956,8766 Main St,Miami,FL,97538,USA,GOLD,2024-01-01,2024-06-10 11:23:18
+CUST000027,Elizabeth,Nguyen,elizabeth.nguyen27@example.com,+1-960-766-3546,4562 Elm St,Los Angeles,CA,89276,USA,BRONZE,2024-05-15,2024-09-01 12:07:56
+CUST000028,William,Miller,william.miller28@example.com,+1-294-849-7939,4633 Main St,Seattle,WA,10464,USA,BRONZE,2025-02-04,2025-03-28 16:31:16
+CUST000029,John,Wang,john.wang29@example.com,+1-637-774-1158,1932 Main St,Phoenix,AZ,29536,USA,SILVER,2024-07-09,2026-07-01 19:28:35
+CUST000030,Carlos,Anderson,carlos.anderson30@example.com,+1-573-240-6862,3541 Oak Ave,Austin,TX,97416,USA,BRONZE,2024-06-12,2025-04-23 14:08:02
+CUST000031,Wei,Kumar,wei.kumar31@example.com,+1-366-381-7755,506 Oak Ave,Miami,FL,53540,USA,GOLD,2025-11-23,2026-03-24 17:47:09
+CUST000032,Susan,Costa,susan.costa32@example.com,+1-591-239-8711,3744 Oak Ave,Seattle,WA,70332,USA,BRONZE,2025-01-03,2025-04-23 12:10:50
+CUST000033,Carlos,Costa,carlos.costa33@example.com,+1-608-536-5564,1237 Elm St,Atlanta,GA,56025,USA,SILVER,2024-11-22,2025-06-07 11:01:42
+CUST000034,Richard,Nguyen,richard.nguyen34@example.com,+1-382-794-5349,726 Main St,Atlanta,GA,88193,USA,BRONZE,2025-06-22,2025-11-02 08:07:56
+CUST000035,Arjun,Costa,arjun.costa35@example.com,+1-790-394-5173,827 Maple Dr,Philadelphia,PA,10221,USA,SILVER,2026-01-23,2026-05-01 17:32:07
+CUST000036,Mei,Kumar,mei.kumar36@example.com,+1-538-838-6143,2141 Elm St,Seattle,WA,76469,USA,BRONZE,2024-09-20,2026-08-01 13:27:04
+CUST000037,Susan,Wilson,susan.wilson37@example.com,+1-880-588-3851,9424 Elm St,San Antonio,TX,63225,USA,SILVER,2025-04-10,2025-11-11 16:08:12
+CUST000038,James,Martinez,james.martinez38@example.com,+1-870-529-8618,7338 Maple Dr,Phoenix,AZ,98555,USA,BRONZE,2024-10-17,2026-06-30 14:50:37
+CUST000039,Jessica,Costa,jessica.costa39@example.com,+1-879-848-6491,1630 Oak Ave,Miami,FL,98184,USA,BRONZE,2024-07-26,2026-01-04 18:05:18
+CUST000040,Mei,Miller,mei.miller40@example.com,+1-666-624-4185,6391 Maple Dr,Chicago,IL,62383,USA,BRONZE,2023-10-03,2024-02-29 08:15:30
+CUST000041,Ananya,Kim,ananya.kim41@example.com,+1-912-730-8611,922 2nd Ave,New York,NY,42662,USA,GOLD,2024-03-19,2024-09-15 20:27:14
+CUST000042,Patricia,Moore,patricia.moore42@example.com,+1-973-653-9270,7091 2nd Ave,Chicago,IL,68446,USA,GOLD,2026-03-22,2026-06-11 18:33:35
+CUST000043,Arjun,Jackson,arjun.jackson43@example.com,+1-984-996-9540,8039 Oak Ave,San Diego,CA,45992,USA,BRONZE,2025-01-25,2025-11-04 20:15:53
+CUST000044,Priya,Martinez,priya.martinez44@example.com,+1-341-354-4788,6375 Oak Ave,Houston,TX,38043,USA,BRONZE,2025-02-20,2025-05-13 13:20:57
+CUST000045,Susan,Wilson,susan.wilson45@example.com,+1-598-988-1320,9532 Maple Dr,Dallas,TX,72518,USA,BRONZE,2026-03-25,2026-07-10 14:03:13
+CUST000046,Barbara,Martinez,barbara.martinez46@example.com,+1-751-965-9947,9983 Oak Ave,Boston,MA,73993,USA,BRONZE,2025-10-20,2026-05-22 21:57:53
+CUST000047,Susan,Jackson,susan.jackson47@example.com,+1-941-369-8657,2191 2nd Ave,New York,NY,80008,USA,BRONZE,2025-10-18,2026-05-13 13:42:43
+CUST000048,Richard,Sharma,richard.sharma48@example.com,+1-672-386-1823,4362 Maple Dr,Austin,TX,52906,USA,BRONZE,2023-10-08,2024-07-11 09:41:27
+CUST000049,William,Wilson,william.wilson49@example.com,+1-458-283-8705,417 2nd Ave,Boston,MA,16826,USA,PLATINUM,2025-09-28,2026-05-01 12:48:53
+CUST000050,Barbara,Davis,barbara.davis50@example.com,+1-231-453-4266,433 2nd Ave,Seattle,WA,29973,USA,BRONZE,2024-01-01,2026-02-11 20:41:02
+CUST000051,Jessica,Nguyen,jessica.nguyen51@example.com,+1-371-820-2876,2783 Elm St,Los Angeles,CA,24168,USA,SILVER,2024-11-02,2025-11-14 15:44:16
+CUST000052,Olivia,Martinez,olivia.martinez52@example.com,+1-806-907-4978,1769 Elm St,Austin,TX,99687,USA,SILVER,2025-09-20,2025-10-28 14:45:12
+CUST000053,Patricia,Costa,patricia.costa53@example.com,+1-579-270-9289,5690 Main St,Austin,TX,65057,USA,GOLD,2023-11-06,2025-09-13 13:34:27
+CUST000054,Patricia,Thomas,patricia.thomas54@example.com,+1-951-734-5425,8917 Maple Dr,Philadelphia,PA,70931,USA,BRONZE,2026-03-12,2026-04-26 19:09:27
+CUST000055,Arjun,Sharma,arjun.sharma55@example.com,+1-485-661-4995,7713 2nd Ave,Phoenix,AZ,89997,USA,SILVER,2025-06-04,2025-07-18 21:15:53
+CUST000056,William,Smith,william.smith56@example.com,+1-464-548-5581,9867 Elm St,San Diego,CA,82848,USA,BRONZE,2025-06-09,2025-12-07 10:31:13
+CUST000057,Michael,Williams,michael.williams57@example.com,+1-907-687-9041,7442 Main St,Houston,TX,22196,USA,BRONZE,2025-11-23,2026-03-26 15:35:48
+CUST000058,Richard,Kim,richard.kim58@example.com,+1-766-743-6632,7071 2nd Ave,Houston,TX,53357,USA,BRONZE,2025-05-02,2025-12-30 18:37:23
+CUST000059,Joseph,Rodriguez,joseph.rodriguez59@example.com,+1-523-322-9779,3133 Oak Ave,Phoenix,AZ,38361,USA,SILVER,2025-01-09,2025-07-25 11:07:46
+CUST000060,David,Lee,david.lee60@example.com,+1-503-432-6912,3039 Elm St,Austin,TX,11854,USA,SILVER,2026-07-23,2026-07-29 17:18:06
+CUST000061,John,Rodriguez,john.rodriguez61@example.com,+1-329-853-9042,1780 Main St,New York,NY,85243,USA,BRONZE,2023-12-03,2026-07-26 16:18:44
+CUST000062,Jessica,Moore,jessica.moore62@example.com,+1-316-266-7565,8156 Main St,Philadelphia,PA,85631,USA,SILVER,2024-08-25,2025-12-27 08:16:55
+CUST000063,Mary,Jones,mary.jones63@example.com,+1-982-626-4697,8661 Maple Dr,Chicago,IL,69049,USA,GOLD,2025-04-27,2026-02-06 09:15:07
+CUST000064,Elizabeth,Sharma,elizabeth.sharma64@example.com,+1-957-301-4404,3557 Elm St,San Antonio,TX,96563,USA,BRONZE,2025-04-30,2026-03-08 17:39:03
+CUST000065,Linda,Garcia,linda.garcia65@example.com,+1-905-808-8699,4871 Main St,Dallas,TX,40340,USA,BRONZE,2024-01-14,2025-04-19 10:00:26
+CUST000066,Elizabeth,Kim,elizabeth.kim66@example.com,+1-840-803-4241,7065 Main St,Atlanta,GA,81376,USA,BRONZE,2026-02-28,2026-05-06 09:43:14
+CUST000067,John,Rodriguez,john.rodriguez67@example.com,+1-809-966-5728,7295 Main St,Atlanta,GA,71433,USA,SILVER,2024-05-31,2025-04-10 09:03:10
+CUST000068,Priya,Taylor,priya.taylor68@example.com,+1-812-240-8078,5380 2nd Ave,Phoenix,AZ,42816,USA,BRONZE,2026-06-03,2026-06-13 16:31:28
+CUST000069,Linda,Nguyen,linda.nguyen69@example.com,+1-790-241-3870,7808 2nd Ave,Atlanta,GA,95394,USA,BRONZE,2023-09-25,2025-03-29 20:43:52
+CUST000070,David,Garcia,david.garcia70@example.com,+1-681-556-7690,5560 Elm St,Austin,TX,97835,USA,BRONZE,2026-01-22,2026-02-14 18:52:31
+CUST000071,Jennifer,Wilson,jennifer.wilson71@example.com,+1-237-665-2442,5253 Elm St,San Antonio,TX,52372,USA,BRONZE,2026-05-24,2026-08-02 12:42:25
+CUST000072,Wei,Taylor,wei.taylor72@example.com,+1-673-623-1888,3173 2nd Ave,Atlanta,GA,57419,USA,SILVER,2026-07-02,2026-08-05 21:00:42
+CUST000073,Jessica,Wang,jessica.wang73@example.com,+1-494-648-8941,2089 Main St,San Diego,CA,92578,USA,SILVER,2023-11-27,2024-04-09 11:17:35
+CUST000074,Linda,Kim,linda.kim74@example.com,+1-295-430-2858,7660 Main St,Chicago,IL,94896,USA,GOLD,2025-05-11,2025-12-05 16:00:35
+CUST000075,Jessica,Kim,jessica.kim75@example.com,+1-694-683-4993,7583 2nd Ave,Phoenix,AZ,28958,USA,BRONZE,2026-06-21,2026-08-13 19:17:26
+CUST000076,Olivia,Chen,olivia.chen76@example.com,+1-624-548-9318,4477 Main St,Dallas,TX,47072,USA,SILVER,2024-05-19,2026-07-19 21:04:17
+CUST000077,Carlos,Sharma,carlos.sharma77@example.com,+1-695-553-6446,9142 2nd Ave,Austin,TX,59441,USA,SILVER,2026-05-12,2026-07-19 21:09:28
+CUST000078,William,Miller,william.miller78@example.com,+1-244-525-8749,6346 Maple Dr,Denver,CO,96991,USA,GOLD,2024-12-15,2026-02-08 17:24:14
+CUST000079,Ananya,Jones,ananya.jones79@example.com,+1-302-650-2633,8717 Maple Dr,San Diego,CA,12011,USA,SILVER,2023-10-28,2024-10-01 10:32:37
+CUST000080,Susan,Wang,susan.wang80@example.com,+1-838-909-7512,1415 Elm St,Chicago,IL,98389,USA,GOLD,2024-01-14,2024-12-25 15:50:16
+CUST000081,Richard,Wilson,richard.wilson81@example.com,+1-270-440-5708,3827 Main St,Seattle,WA,66881,USA,PLATINUM,2026-05-09,2026-07-27 21:34:02
+CUST000082,Wei,Wang,wei.wang82@example.com,+1-229-247-6314,1019 Elm St,Denver,CO,56984,USA,BRONZE,2024-03-06,2025-01-06 15:10:44
+CUST000083,John,Davis,john.davis83@example.com,+1-374-379-2293,6367 2nd Ave,Dallas,TX,99539,USA,BRONZE,2025-12-04,2026-01-19 17:43:50
+CUST000084,Olivia,Sharma,olivia.sharma84@example.com,+1-461-882-1153,7722 Elm St,Chicago,IL,98815,USA,SILVER,2024-12-01,2026-03-16 15:40:16
+CUST000085,Robert,Moore,robert.moore85@example.com,+1-667-509-4263,6402 Maple Dr,Philadelphia,PA,23979,USA,BRONZE,2025-04-17,2025-08-23 18:27:44
+CUST000086,Charles,Anderson,charles.anderson86@example.com,+1-874-605-5497,232 2nd Ave,Austin,TX,99889,USA,GOLD,2025-04-10,2026-06-08 19:18:01
+CUST000087,Mary,Chen,mary.chen87@example.com,+1-994-435-6772,3688 Oak Ave,Denver,CO,91381,USA,BRONZE,2026-05-27,2026-07-02 21:57:57
+CUST000088,Wei,Lee,wei.lee88@example.com,+1-861-240-6061,7322 Main St,Boston,MA,85965,USA,BRONZE,2024-05-20,2026-02-21 18:06:57
+CUST000089,John,Williams,john.williams89@example.com,+1-405-335-9837,6094 2nd Ave,Miami,FL,75771,USA,GOLD,2025-04-09,2025-07-07 13:47:26
+CUST000090,Carlos,Garcia,carlos.garcia90@example.com,+1-317-679-2233,2406 Oak Ave,Phoenix,AZ,98647,USA,SILVER,2026-04-26,2026-06-08 20:18:47
+CUST000091,Richard,Costa,richard.costa91@example.com,+1-470-749-3024,7551 Elm St,Dallas,TX,98188,USA,SILVER,2025-09-01,2025-09-08 09:50:25
+CUST000092,David,Sharma,david.sharma92@example.com,+1-225-834-6374,3726 Main St,San Antonio,TX,93283,USA,GOLD,2025-09-12,2026-05-11 09:43:14
+CUST000093,Olivia,Kim,olivia.kim93@example.com,+1-511-704-2902,1692 Oak Ave,Phoenix,AZ,80457,USA,BRONZE,2025-11-27,2025-12-16 09:08:02
+CUST000094,Joseph,Anderson,joseph.anderson94@example.com,+1-624-870-2622,8117 2nd Ave,Seattle,WA,63492,USA,PLATINUM,2025-12-19,2026-01-27 17:47:46
+CUST000095,David,Johnson,david.johnson95@example.com,+1-571-301-7018,9020 Elm St,Denver,CO,17936,USA,BRONZE,2025-09-10,2026-01-08 11:28:28
+CUST000096,Michael,Brown,michael.brown96@example.com,+1-854-811-1349,928 Elm St,Atlanta,GA,41925,USA,PLATINUM,2026-03-02,2026-08-13 09:42:13
+CUST000097,Mei,Sharma,mei.sharma97@example.com,+1-800-421-4817,5483 Oak Ave,Houston,TX,88116,USA,BRONZE,2024-01-01,2024-07-31 21:48:35
+CUST000098,Sofia,Jones,sofia.jones98@example.com,+1-334-215-6869,3998 2nd Ave,Chicago,IL,52437,USA,BRONZE,2025-01-08,2025-02-03 20:11:07
+CUST000099,David,Johnson,david.johnson99@example.com,+1-687-659-6931,8508 2nd Ave,Chicago,IL,24293,USA,SILVER,2025-12-23,2026-01-08 16:07:47
+CUST000100,Linda,Chen,linda.chen100@example.com,+1-262-690-7580,7084 Main St,New York,NY,74260,USA,SILVER,2026-07-16,2026-07-16 12:29:41
+CUST000101,Joseph,Williams,joseph.williams101@example.com,+1-329-481-9984,5427 Maple Dr,Miami,FL,88301,USA,SILVER,2024-01-26,2024-04-02 13:38:09
+CUST000102,Joseph,Patel,joseph.patel102@example.com,+1-870-866-4522,7146 Maple Dr,Austin,TX,39949,USA,BRONZE,2026-01-11,2026-02-09 09:50:44
+CUST000103,Carlos,Moore,carlos.moore103@example.com,+1-520-881-5176,6232 Oak Ave,San Antonio,TX,72163,USA,BRONZE,2025-12-12,2026-03-31 19:06:20
+CUST000104,Carlos,Williams,carlos.williams104@example.com,+1-333-769-1982,9708 2nd Ave,Los Angeles,CA,83620,USA,BRONZE,2026-01-14,2026-04-19 09:47:47
+CUST000105,Patricia,Thomas,patricia.thomas105@example.com,+1-494-814-6119,5861 Main St,Philadelphia,PA,85748,USA,SILVER,2025-12-27,2026-01-09 21:58:46
+CUST000106,John,Nguyen,john.nguyen106@example.com,+1-576-317-5564,9506 Oak Ave,San Diego,CA,66244,USA,GOLD,2024-11-15,2026-06-07 21:06:22
+CUST000107,Wei,Chen,wei.chen107@example.com,+1-229-384-5477,5162 Elm St,Austin,TX,56009,USA,BRONZE,2023-10-06,2025-04-05 17:59:42
+CUST000108,Sofia,Jones,sofia.jones108@example.com,+1-293-964-9691,3624 Maple Dr,Austin,TX,65028,USA,SILVER,2025-11-11,2025-11-26 09:09:47
+CUST000109,Jennifer,Anderson,jennifer.anderson109@example.com,+1-253-359-3579,915 Main St,Phoenix,AZ,45665,USA,BRONZE,2025-06-08,2025-07-21 20:36:38
+CUST000110,Susan,Jackson,susan.jackson110@example.com,+1-316-553-8043,1916 Elm St,Austin,TX,98895,USA,SILVER,2026-02-04,2026-06-15 14:17:13
+CUST000111,Jessica,Patel,jessica.patel111@example.com,+1-256-207-4349,5038 Oak Ave,Seattle,WA,27987,USA,GOLD,2025-05-06,2026-03-08 08:14:25
+CUST000112,Elizabeth,Wilson,elizabeth.wilson112@example.com,+1-332-589-9725,3870 2nd Ave,Los Angeles,CA,83233,USA,GOLD,2023-08-29,2024-08-22 15:47:27
+CUST000113,Mei,Anderson,mei.anderson113@example.com,+1-219-670-2275,5229 2nd Ave,Los Angeles,CA,66267,USA,SILVER,2025-11-04,2026-06-15 21:47:02
+CUST000114,Priya,Wang,priya.wang114@example.com,+1-532-375-8538,6028 Main St,San Antonio,TX,67240,USA,GOLD,2025-03-28,2026-08-04 09:25:01
+CUST000115,Linda,Thomas,linda.thomas115@example.com,+1-963-547-4630,5556 Oak Ave,Austin,TX,20011,USA,SILVER,2025-11-11,2026-04-18 16:05:25
+CUST000116,Patricia,Patel,patricia.patel116@example.com,+1-351-441-2684,2499 Elm St,Dallas,TX,35856,USA,BRONZE,2024-09-14,2026-07-06 20:22:22
+CUST000117,John,Silva,john.silva117@example.com,+1-675-972-8354,9348 2nd Ave,Boston,MA,52363,USA,GOLD,2024-01-15,2025-06-03 10:49:40
+CUST000118,Ananya,Wilson,ananya.wilson118@example.com,+1-510-481-1920,5866 2nd Ave,Chicago,IL,19724,USA,BRONZE,2026-01-30,2026-07-10 09:30:28
+CUST000119,Joseph,Johnson,joseph.johnson119@example.com,+1-292-829-9307,6399 Maple Dr,New York,NY,86064,USA,SILVER,2025-09-07,2026-08-03 21:18:04
+CUST000120,Mei,Lee,mei.lee120@example.com,+1-867-392-6267,7892 2nd Ave,Miami,FL,29773,USA,PLATINUM,2023-11-06,2025-06-13 15:58:51
+CUST000121,Joseph,Brown,joseph.brown121@example.com,+1-376-240-5059,7272 Maple Dr,Boston,MA,78690,USA,SILVER,2025-07-17,2026-06-12 19:05:32
+CUST000122,Jennifer,Anderson,jennifer.anderson122@example.com,+1-895-812-1857,5582 Main St,Philadelphia,PA,53213,USA,BRONZE,2025-03-15,2026-02-24 14:26:49
+CUST000123,Rahul,Taylor,rahul.taylor123@example.com,+1-541-283-3317,5831 Elm St,Phoenix,AZ,95990,USA,SILVER,2025-01-11,2025-06-13 19:54:42
+CUST000124,Richard,Jones,richard.jones124@example.com,+1-536-330-9624,1631 Maple Dr,Austin,TX,76648,USA,BRONZE,2024-02-03,2025-11-22 12:35:24
+CUST000125,Barbara,Martinez,barbara.martinez125@example.com,+1-431-340-3538,1364 Elm St,Chicago,IL,23256,USA,SILVER,2024-10-25,2025-05-09 13:49:31
+CUST000126,Sarah,Lee,sarah.lee126@example.com,+1-811-585-3527,2758 Oak Ave,Miami,FL,91885,USA,GOLD,2026-07-27,2026-07-31 08:42:21
+CUST000127,Jennifer,Lee,jennifer.lee127@example.com,+1-443-654-5668,7455 Oak Ave,San Diego,CA,79993,USA,BRONZE,2023-11-11,2025-11-16 14:23:43
+CUST000128,Mei,Costa,mei.costa128@example.com,+1-672-987-5616,6356 2nd Ave,San Diego,CA,79135,USA,BRONZE,2024-09-14,2025-12-09 13:43:36
+CUST000129,Jennifer,Miller,jennifer.miller129@example.com,+1-692-580-2680,8552 Main St,Boston,MA,47363,USA,BRONZE,2024-05-23,2026-03-10 21:16:03
+CUST000130,Jennifer,Rodriguez,jennifer.rodriguez130@example.com,+1-427-661-6727,536 Maple Dr,San Diego,CA,16980,USA,BRONZE,2026-06-30,2026-07-05 10:53:27
+CUST000131,Barbara,Davis,barbara.davis131@example.com,+1-301-931-6493,2492 Oak Ave,San Antonio,TX,15020,USA,BRONZE,2024-01-28,2024-12-19 13:14:01
+CUST000132,Carlos,Jackson,carlos.jackson132@example.com,+1-830-205-2298,411 Elm St,Denver,CO,38266,USA,GOLD,2024-05-24,2025-08-26 20:45:30
+CUST000133,Sarah,Lee,sarah.lee133@example.com,+1-443-508-2996,882 Oak Ave,Austin,TX,65027,USA,SILVER,2026-07-29,2026-08-07 14:07:49
+CUST000134,Karen,Moore,karen.moore134@example.com,+1-748-216-9443,9521 Oak Ave,Los Angeles,CA,28818,USA,BRONZE,2024-03-28,2025-11-29 21:57:31
+CUST000135,James,Chen,james.chen135@example.com,+1-736-569-2108,8718 2nd Ave,Philadelphia,PA,76496,USA,GOLD,2024-12-18,2025-03-15 17:26:11
+CUST000136,Thomas,Kumar,thomas.kumar136@example.com,+1-582-459-1266,5950 Main St,New York,NY,55193,USA,BRONZE,2025-10-21,2026-05-07 21:30:02
+CUST000137,Rahul,Wang,rahul.wang137@example.com,+1-546-858-3868,7712 Maple Dr,Los Angeles,CA,92802,USA,BRONZE,2025-06-24,2026-03-30 10:02:22
+CUST000138,John,Williams,john.williams138@example.com,+1-404-242-6170,5180 2nd Ave,Denver,CO,62196,USA,PLATINUM,2026-03-08,2026-03-19 08:18:12
+CUST000139,Sarah,Jackson,sarah.jackson139@example.com,+1-565-999-1783,5538 Elm St,Phoenix,AZ,26315,USA,GOLD,2023-10-27,2024-08-14 20:41:12
+CUST000140,Susan,Taylor,susan.taylor140@example.com,+1-908-709-7018,8607 Elm St,Denver,CO,20828,USA,SILVER,2026-01-30,2026-06-06 14:21:11
+CUST000141,Robert,Thomas,robert.thomas141@example.com,+1-281-535-5843,5121 Maple Dr,Austin,TX,88986,USA,SILVER,2024-08-17,2024-11-30 16:18:20
+CUST000142,Jennifer,Kim,jennifer.kim142@example.com,+1-829-645-5498,1039 Main St,San Diego,CA,97973,USA,SILVER,2025-08-02,2026-01-29 15:02:46
+CUST000143,Barbara,Patel,barbara.patel143@example.com,+1-894-648-1570,2168 Main St,Boston,MA,40932,USA,GOLD,2024-07-06,2026-03-20 08:09:54
+CUST000144,Barbara,Anderson,barbara.anderson144@example.com,+1-579-580-8273,1359 2nd Ave,San Antonio,TX,28047,USA,SILVER,2023-10-19,2026-04-27 17:09:43
+CUST000145,Richard,Wilson,richard.wilson145@example.com,+1-711-730-7340,9302 Main St,Seattle,WA,44311,USA,GOLD,2025-03-06,2025-09-12 11:07:01
+CUST000146,Priya,Moore,priya.moore146@example.com,+1-325-338-2213,7506 Oak Ave,Houston,TX,68341,USA,PLATINUM,2025-03-20,2025-10-10 19:58:31
+CUST000147,Mei,Nguyen,mei.nguyen147@example.com,+1-763-755-5757,5014 Oak Ave,Atlanta,GA,93584,USA,BRONZE,2025-05-29,2025-07-01 18:22:45
+CUST000148,Barbara,Patel,barbara.patel148@example.com,+1-705-226-6912,9177 2nd Ave,Houston,TX,58353,USA,SILVER,2024-04-18,2024-12-16 11:50:08
+CUST000149,Sarah,Jones,sarah.jones149@example.com,+1-936-690-9612,6830 Maple Dr,Austin,TX,85353,USA,BRONZE,2024-02-06,2026-02-09 09:19:25
+CUST000150,William,Wang,william.wang150@example.com,+1-331-998-3981,2214 Maple Dr,Los Angeles,CA,75911,USA,GOLD,2026-02-20,2026-05-19 15:43:33
+CUST000151,Mary,Brown,mary.brown151@example.com,+1-926-430-6669,8601 Elm St,Dallas,TX,20336,USA,BRONZE,2024-06-22,2025-05-18 12:10:10
+CUST000152,Ananya,Kumar,ananya.kumar152@example.com,+1-295-714-3762,9796 2nd Ave,Phoenix,AZ,30210,USA,BRONZE,2024-04-26,2025-10-24 18:19:39
+CUST000153,Karen,Lee,karen.lee153@example.com,+1-229-283-1744,9549 Elm St,Miami,FL,95344,USA,BRONZE,2025-07-05,2025-07-26 21:59:36
+CUST000154,Charles,Thomas,charles.thomas154@example.com,+1-857-509-8912,4112 Maple Dr,Austin,TX,48985,USA,SILVER,2023-10-15,2025-05-30 15:56:40
+CUST000155,Priya,Johnson,priya.johnson155@example.com,+1-548-821-3353,5221 Elm St,Chicago,IL,55268,USA,PLATINUM,2026-01-30,2026-03-23 14:30:29
+CUST000156,John,Silva,john.silva156@example.com,+1-677-325-5382,7466 Oak Ave,Philadelphia,PA,28465,USA,BRONZE,2026-07-03,2026-07-18 16:06:20
+CUST000157,Elizabeth,Taylor,elizabeth.taylor157@example.com,+1-535-791-6123,3210 Oak Ave,Atlanta,GA,75308,USA,PLATINUM,2025-12-17,2026-01-26 11:55:57
+CUST000158,Joseph,Jackson,joseph.jackson158@example.com,+1-717-668-4944,3624 2nd Ave,Miami,FL,56254,USA,BRONZE,2025-05-06,2025-11-23 15:01:05
+CUST000159,Elizabeth,Jackson,elizabeth.jackson159@example.com,+1-641-337-5333,6092 Maple Dr,Austin,TX,57964,USA,BRONZE,2026-04-03,2026-04-30 12:34:00
+CUST000160,Mary,Sharma,mary.sharma160@example.com,+1-595-716-8378,9108 Elm St,Dallas,TX,91689,USA,SILVER,2024-09-15,2024-11-29 13:35:18
+CUST000161,Patricia,Jones,patricia.jones161@example.com,+1-574-973-3363,3361 2nd Ave,Los Angeles,CA,76731,USA,BRONZE,2025-10-28,2026-08-09 13:50:21
+CUST000162,Mary,Johnson,mary.johnson162@example.com,+1-731-667-3440,8546 Oak Ave,New York,NY,52987,USA,PLATINUM,2024-05-20,2025-09-17 19:21:51
+CUST000163,William,Garcia,william.garcia163@example.com,+1-721-745-9025,9322 Elm St,San Antonio,TX,72245,USA,GOLD,2025-04-17,2026-06-15 17:21:32
+CUST000164,Barbara,Wilson,barbara.wilson164@example.com,+1-942-904-1436,9879 Maple Dr,Seattle,WA,44803,USA,PLATINUM,2024-03-25,2026-06-18 14:37:19
+CUST000165,Mei,Silva,mei.silva165@example.com,+1-374-736-7229,2521 Oak Ave,Austin,TX,14138,USA,SILVER,2024-11-22,2026-03-28 19:03:37
+CUST000166,Priya,Brown,priya.brown166@example.com,+1-622-907-4340,6823 2nd Ave,Houston,TX,90147,USA,GOLD,2023-09-21,2024-07-27 15:20:26
+CUST000167,Sofia,Lee,sofia.lee167@example.com,+1-774-532-8837,8709 Maple Dr,Denver,CO,51124,USA,PLATINUM,2023-12-19,2024-07-18 19:08:33
+CUST000168,Joseph,Kumar,joseph.kumar168@example.com,+1-897-858-5331,8032 Oak Ave,Philadelphia,PA,42311,USA,BRONZE,2025-08-08,2026-08-12 18:49:55
+CUST000169,Elizabeth,Davis,elizabeth.davis169@example.com,+1-700-524-8861,5814 2nd Ave,Phoenix,AZ,45842,USA,BRONZE,2025-03-27,2026-03-22 19:13:44
+CUST000170,Charles,Nguyen,charles.nguyen170@example.com,+1-497-243-5712,1394 Elm St,Dallas,TX,67983,USA,SILVER,2025-09-29,2025-12-12 14:52:22
+CUST000171,Arjun,Jackson,arjun.jackson171@example.com,+1-912-478-3249,1889 2nd Ave,Houston,TX,86917,USA,BRONZE,2024-09-30,2026-04-28 21:34:17
+CUST000172,Mary,Nguyen,mary.nguyen172@example.com,+1-302-623-6411,7839 Main St,Miami,FL,99285,USA,GOLD,2026-08-05,2026-08-05 11:40:14
+CUST000173,James,Kumar,james.kumar173@example.com,+1-688-866-4267,4806 Elm St,Miami,FL,47409,USA,SILVER,2024-07-02,2025-11-01 14:41:59
+CUST000174,Olivia,Silva,olivia.silva174@example.com,+1-379-627-3880,695 Maple Dr,Los Angeles,CA,74930,USA,BRONZE,2024-12-01,2025-01-08 16:47:46
+CUST000175,Arjun,Martinez,arjun.martinez175@example.com,+1-309-543-5662,7544 2nd Ave,Miami,FL,78723,USA,SILVER,2023-10-29,2025-07-07 08:19:36
+CUST000176,John,Patel,john.patel176@example.com,+1-366-948-8518,4315 Oak Ave,San Diego,CA,11846,USA,SILVER,2025-02-22,2026-01-26 11:51:07
+CUST000177,Mei,Martinez,mei.martinez177@example.com,+1-615-637-9442,5472 Main St,Austin,TX,62538,USA,SILVER,2024-09-12,2026-06-28 10:39:54
+CUST000178,Jennifer,Jones,jennifer.jones178@example.com,+1-441-657-5374,5500 Elm St,San Diego,CA,86344,USA,SILVER,2025-06-06,2025-12-19 11:00:16
+CUST000179,James,Rodriguez,james.rodriguez179@example.com,+1-321-676-6026,2716 Maple Dr,Seattle,WA,99925,USA,SILVER,2025-08-19,2026-07-26 19:15:03
+CUST000180,Liam,Kim,liam.kim180@example.com,+1-576-829-4618,3690 Oak Ave,Boston,MA,72676,USA,BRONZE,2025-05-11,2025-10-09 19:07:40
+CUST000181,Arjun,Chen,arjun.chen181@example.com,+1-975-750-4578,4154 2nd Ave,Philadelphia,PA,20730,USA,SILVER,2025-12-12,2026-04-11 19:35:58
+CUST000182,Thomas,Kim,thomas.kim182@example.com,+1-760-717-4312,9483 2nd Ave,Philadelphia,PA,29641,USA,BRONZE,2024-01-20,2026-05-17 17:07:03
+CUST000183,Sofia,Patel,sofia.patel183@example.com,+1-700-293-9361,7398 Main St,San Diego,CA,69432,USA,BRONZE,2024-04-08,2025-11-26 18:13:45
+CUST000184,Susan,Moore,susan.moore184@example.com,+1-515-940-1356,6587 Elm St,Austin,TX,10395,USA,SILVER,2023-12-10,2026-03-15 16:29:43
+CUST000185,Charles,Williams,charles.williams185@example.com,+1-261-270-8734,619 Elm St,New York,NY,63591,USA,BRONZE,2025-12-28,2026-05-15 13:44:04
+CUST000186,John,Silva,john.silva186@example.com,+1-586-584-2314,8935 Oak Ave,Seattle,WA,95660,USA,GOLD,2025-12-21,2026-04-14 13:57:24
+CUST000187,Patricia,Garcia,patricia.garcia187@example.com,+1-203-974-1372,4988 Maple Dr,Dallas,TX,98276,USA,SILVER,2025-10-26,2026-02-17 16:08:46
+CUST000188,Susan,Kumar,susan.kumar188@example.com,+1-482-393-2848,627 Maple Dr,San Antonio,TX,90599,USA,GOLD,2024-11-26,2025-05-03 11:29:22
+CUST000189,Liam,Smith,liam.smith189@example.com,+1-657-812-1797,4109 Main St,Houston,TX,62725,USA,BRONZE,2024-10-09,2024-11-12 09:06:38
+CUST000190,Sarah,Miller,sarah.miller190@example.com,+1-949-789-6224,9561 2nd Ave,Boston,MA,98150,USA,GOLD,2023-12-07,2024-08-02 10:32:18
+CUST000191,Linda,Martinez,linda.martinez191@example.com,+1-507-481-1998,9221 2nd Ave,Miami,FL,32955,USA,SILVER,2024-06-02,2025-07-30 18:33:14
+CUST000192,Susan,Kumar,susan.kumar192@example.com,+1-737-526-7821,6788 Oak Ave,San Diego,CA,49306,USA,BRONZE,2023-11-18,2024-12-12 13:41:42
+CUST000193,Wei,Kumar,wei.kumar193@example.com,+1-674-259-7761,6924 2nd Ave,San Diego,CA,79467,USA,BRONZE,2024-12-19,2025-05-15 21:14:19
+CUST000194,Linda,Rodriguez,linda.rodriguez194@example.com,+1-579-294-9775,3220 Main St,Houston,TX,45187,USA,BRONZE,2025-06-20,2026-02-05 18:05:59
+CUST000195,Karen,Chen,karen.chen195@example.com,+1-941-887-4555,7954 Oak Ave,New York,NY,53642,USA,BRONZE,2024-01-10,2025-09-02 11:51:48
+CUST000196,Olivia,Smith,olivia.smith196@example.com,+1-448-912-4350,6598 Oak Ave,Houston,TX,82362,USA,BRONZE,2024-09-06,2026-01-09 19:07:47
+CUST000197,Elizabeth,Taylor,elizabeth.taylor197@example.com,+1-568-725-9147,7735 Main St,San Diego,CA,71537,USA,GOLD,2026-08-10,2026-08-12 18:22:19
+CUST000198,William,Miller,william.miller198@example.com,+1-426-959-3390,365 Elm St,Philadelphia,PA,82523,USA,PLATINUM,2025-05-15,2026-07-31 14:02:36
+CUST000199,Charles,Lee,charles.lee199@example.com,+1-588-783-5026,8280 2nd Ave,San Antonio,TX,95800,USA,PLATINUM,2025-04-09,2025-08-04 10:12:21
+CUST000200,William,Rodriguez,william.rodriguez200@example.com,+1-671-372-6770,2873 Oak Ave,Boston,MA,81636,USA,SILVER,2026-05-10,2026-07-11 19:41:47
+CUST000201,Olivia,Kumar,olivia.kumar201@example.com,+1-276-884-1794,204 Maple Dr,Seattle,WA,28021,USA,GOLD,2023-12-12,2026-04-27 16:02:53
+CUST000202,Linda,Williams,linda.williams202@example.com,+1-582-261-8916,8093 Main St,Denver,CO,10866,USA,SILVER,2024-06-18,2025-09-27 08:13:32
+CUST000203,Susan,Smith,susan.smith203@example.com,+1-217-714-8054,3037 Main St,New York,NY,22624,USA,SILVER,2026-08-02,2026-08-06 19:17:34
+CUST000204,Linda,Miller,linda.miller204@example.com,+1-606-280-7112,6752 Maple Dr,Austin,TX,84055,USA,BRONZE,2026-07-27,2026-08-04 12:52:22
+CUST000205,Priya,Davis,priya.davis205@example.com,+1-232-295-7640,6313 Maple Dr,Phoenix,AZ,82443,USA,SILVER,2024-01-26,2026-03-13 18:54:41
+CUST000206,Ananya,Smith,ananya.smith206@example.com,+1-860-539-2562,8753 Main St,Denver,CO,40115,USA,BRONZE,2024-07-29,2025-10-16 09:31:54
+CUST000207,Sofia,Kim,sofia.kim207@example.com,+1-900-487-9897,9332 Main St,Miami,FL,33508,USA,GOLD,2026-04-13,2026-04-22 12:02:59
+CUST000208,William,Smith,william.smith208@example.com,+1-278-506-3661,9339 Oak Ave,Houston,TX,84277,USA,GOLD,2024-06-04,2025-07-16 20:52:45
+CUST000209,Richard,Nguyen,richard.nguyen209@example.com,+1-905-941-2284,8304 Elm St,Miami,FL,17038,USA,BRONZE,2025-06-23,2025-09-02 14:48:47
+CUST000210,Linda,Williams,linda.williams210@example.com,+1-661-702-4737,5929 2nd Ave,Philadelphia,PA,59207,USA,BRONZE,2025-11-03,2026-03-22 20:20:01
+CUST000211,Rahul,Sharma,rahul.sharma211@example.com,+1-452-930-2204,1444 Elm St,Seattle,WA,30214,USA,BRONZE,2025-09-30,2026-02-28 09:49:39
+CUST000212,Mei,Wang,mei.wang212@example.com,+1-205-515-8286,5996 Elm St,Chicago,IL,23399,USA,BRONZE,2025-10-19,2025-12-04 13:23:06
+CUST000213,Jennifer,Thomas,jennifer.thomas213@example.com,+1-562-767-2524,9880 2nd Ave,San Diego,CA,52523,USA,GOLD,2026-06-28,2026-07-03 14:06:01
+CUST000214,James,Martinez,james.martinez214@example.com,+1-448-785-9537,2878 Maple Dr,San Antonio,TX,32216,USA,BRONZE,2025-10-16,2026-07-29 20:05:46
+CUST000215,Elizabeth,Rodriguez,elizabeth.rodriguez215@example.com,+1-631-506-8933,1360 Elm St,San Diego,CA,42990,USA,PLATINUM,2024-06-07,2025-03-16 09:10:27
+CUST000216,Arjun,Wang,arjun.wang216@example.com,+1-206-605-6443,6324 Elm St,San Diego,CA,67700,USA,BRONZE,2024-09-17,2025-07-25 15:06:08
+CUST000217,Carlos,Wang,carlos.wang217@example.com,+1-405-690-6147,3010 Maple Dr,Austin,TX,51830,USA,BRONZE,2024-05-18,2026-04-29 12:20:38
+CUST000218,Priya,Wang,priya.wang218@example.com,+1-573-316-4273,9803 2nd Ave,San Diego,CA,33583,USA,SILVER,2024-12-22,2026-01-28 13:24:17
+CUST000219,Sarah,Smith,sarah.smith219@example.com,+1-909-270-7703,8280 Oak Ave,Denver,CO,93012,USA,BRONZE,2026-03-16,2026-05-29 19:13:28
+CUST000220,David,Nguyen,david.nguyen220@example.com,+1-812-690-7566,8855 2nd Ave,Chicago,IL,64827,USA,SILVER,2025-12-27,2026-04-20 20:24:04
+CUST000221,Mei,Anderson,mei.anderson221@example.com,+1-880-563-3725,825 2nd Ave,Denver,CO,94545,USA,SILVER,2024-02-04,2025-12-08 09:49:15
+CUST000222,Richard,Silva,richard.silva222@example.com,+1-427-722-9499,9242 2nd Ave,Philadelphia,PA,85397,USA,BRONZE,2026-01-11,2026-03-18 09:00:06
+CUST000223,Barbara,Taylor,barbara.taylor223@example.com,+1-307-502-7815,1506 Main St,San Diego,CA,28569,USA,BRONZE,2026-06-03,2026-08-03 10:22:01
+CUST000224,William,Moore,william.moore224@example.com,+1-299-648-8412,5325 Main St,Boston,MA,49356,USA,BRONZE,2024-10-10,2026-02-09 16:30:22
+CUST000225,Priya,Brown,priya.brown225@example.com,+1-958-449-9454,2958 2nd Ave,New York,NY,30989,USA,BRONZE,2025-07-16,2025-10-08 18:06:43
+CUST000226,Susan,Moore,susan.moore226@example.com,+1-605-229-4232,7465 2nd Ave,Houston,TX,66302,USA,BRONZE,2025-11-20,2026-06-29 18:11:11
+CUST000227,Priya,Miller,priya.miller227@example.com,+1-791-304-9796,3163 Elm St,Houston,TX,52727,USA,BRONZE,2025-03-06,2025-05-09 20:45:51
+CUST000228,Patricia,Rodriguez,patricia.rodriguez228@example.com,+1-597-825-7431,9717 Main St,Seattle,WA,55603,USA,BRONZE,2026-05-12,2026-07-27 16:40:20
+CUST000229,Joseph,Chen,joseph.chen229@example.com,+1-337-520-2931,4008 Elm St,Chicago,IL,25328,USA,BRONZE,2025-04-14,2026-03-24 17:37:05
+CUST000230,Priya,Jones,priya.jones230@example.com,+1-592-633-4043,8073 2nd Ave,Dallas,TX,94575,USA,PLATINUM,2025-10-17,2026-08-07 14:38:08
+CUST000231,Jennifer,Kumar,jennifer.kumar231@example.com,+1-661-834-1878,5982 Main St,Chicago,IL,73518,USA,BRONZE,2026-05-12,2026-06-21 12:08:11
+CUST000232,Carlos,Taylor,carlos.taylor232@example.com,+1-703-625-8272,8106 Oak Ave,Dallas,TX,20835,USA,SILVER,2026-06-14,2026-07-27 18:31:26
+CUST000233,Mei,Silva,mei.silva233@example.com,+1-495-372-8492,9367 Maple Dr,Houston,TX,82053,USA,SILVER,2025-04-03,2026-01-03 08:17:14
+CUST000234,Charles,Brown,charles.brown234@example.com,+1-978-936-8231,9051 Oak Ave,Phoenix,AZ,65725,USA,BRONZE,2025-09-03,2025-09-24 16:52:48
+CUST000235,Carlos,Wang,carlos.wang235@example.com,+1-469-556-2425,7293 Main St,Boston,MA,41056,USA,BRONZE,2025-01-01,2026-04-06 12:55:02
+CUST000236,Arjun,Sharma,arjun.sharma236@example.com,+1-638-369-3281,3485 Oak Ave,Denver,CO,17780,USA,SILVER,2025-08-01,2026-06-20 21:45:39
+CUST000237,Sarah,Rodriguez,sarah.rodriguez237@example.com,+1-786-473-9428,1660 Oak Ave,Austin,TX,63948,USA,GOLD,2024-07-23,2025-05-15 13:45:18
+CUST000238,David,Wang,david.wang238@example.com,+1-453-979-7434,8119 Oak Ave,Chicago,IL,85684,USA,SILVER,2024-05-11,2025-04-05 11:09:45
+CUST000239,Ananya,Thomas,ananya.thomas239@example.com,+1-612-727-5558,6146 Maple Dr,San Antonio,TX,73968,USA,BRONZE,2026-02-24,2026-03-19 09:40:50
+CUST000240,James,Silva,james.silva240@example.com,+1-914-566-2037,8856 Maple Dr,Atlanta,GA,38551,USA,PLATINUM,2024-02-20,2025-12-31 19:29:40
+CUST000241,Carlos,Miller,carlos.miller241@example.com,+1-760-791-3139,9375 Maple Dr,San Diego,CA,55054,USA,GOLD,2025-02-13,2026-01-24 13:53:18
+CUST000242,Wei,Johnson,wei.johnson242@example.com,+1-216-327-3588,7330 Maple Dr,New York,NY,10088,USA,PLATINUM,2024-03-04,2025-06-17 18:50:53
+CUST000243,Susan,Miller,susan.miller243@example.com,+1-295-870-6905,4202 Main St,Denver,CO,58738,USA,SILVER,2024-05-10,2025-02-14 18:19:10
+CUST000244,Ananya,Garcia,ananya.garcia244@example.com,+1-639-871-2494,1659 Main St,New York,NY,37973,USA,SILVER,2025-11-02,2026-03-01 18:19:46
+CUST000245,John,Sharma,john.sharma245@example.com,+1-912-551-2975,7019 Oak Ave,Houston,TX,72613,USA,BRONZE,2026-07-12,2026-07-12 18:28:00
+CUST000246,Richard,Williams,richard.williams246@example.com,+1-340-591-3181,2440 Main St,Denver,CO,79534,USA,SILVER,2024-03-10,2025-01-10 09:20:23
+CUST000247,Karen,Wang,karen.wang247@example.com,+1-966-355-7745,7348 Oak Ave,Chicago,IL,21362,USA,GOLD,2026-01-31,2026-07-10 13:46:13
+CUST000248,John,Silva,john.silva248@example.com,+1-453-483-2380,4165 2nd Ave,Los Angeles,CA,88774,USA,SILVER,2025-10-08,2025-12-18 13:27:20
+CUST000249,Karen,Martinez,karen.martinez249@example.com,+1-410-730-9348,3190 Maple Dr,Boston,MA,48737,USA,SILVER,2023-10-07,2025-06-15 21:54:42
+CUST000250,Mei,Costa,mei.costa250@example.com,+1-853-808-2163,8755 Main St,Houston,TX,57329,USA,PLATINUM,2026-05-23,2026-07-25 14:07:15
+CUST000251,John,Taylor,john.taylor251@example.com,+1-981-682-2195,373 2nd Ave,Atlanta,GA,18851,USA,BRONZE,2025-12-22,2026-02-04 13:34:43
+CUST000252,Michael,Johnson,michael.johnson252@example.com,+1-843-929-9209,6906 Maple Dr,Miami,FL,62727,USA,BRONZE,2023-12-15,2024-10-03 20:25:32
+CUST000253,Sarah,Kumar,sarah.kumar253@example.com,+1-723-408-3545,8888 Elm St,Austin,TX,61213,USA,SILVER,2024-06-21,2024-09-09 12:05:19
+CUST000254,Wei,Wang,wei.wang254@example.com,+1-444-259-5005,1512 Maple Dr,Seattle,WA,25202,USA,SILVER,2023-12-27,2026-01-12 12:44:27
+CUST000255,Karen,Johnson,karen.johnson255@example.com,+1-918-211-3684,8233 Elm St,Phoenix,AZ,78551,USA,SILVER,2024-08-07,2024-12-25 09:00:45
+CUST000256,Carlos,Lee,carlos.lee256@example.com,+1-950-320-1480,5588 Maple Dr,Phoenix,AZ,45649,USA,SILVER,2024-07-20,2025-04-21 13:08:47
+CUST000257,David,Kim,david.kim257@example.com,+1-256-711-3734,6124 Oak Ave,Austin,TX,43438,USA,GOLD,2024-01-18,2025-01-20 15:29:32
+CUST000258,Liam,Sharma,liam.sharma258@example.com,+1-245-212-5006,853 Maple Dr,Seattle,WA,57707,USA,BRONZE,2024-04-06,2024-04-08 11:47:32
+CUST000259,John,Garcia,john.garcia259@example.com,+1-429-529-5067,6919 Elm St,Miami,FL,45554,USA,GOLD,2023-10-25,2026-03-01 16:51:58
+CUST000260,Charles,Anderson,charles.anderson260@example.com,+1-428-728-1752,6668 Main St,Los Angeles,CA,70960,USA,GOLD,2026-06-07,2026-06-29 18:57:03
+CUST000261,Wei,Martinez,wei.martinez261@example.com,+1-405-498-5979,4074 Maple Dr,Philadelphia,PA,58270,USA,SILVER,2024-02-06,2025-02-17 16:29:00
+CUST000262,Jessica,Silva,jessica.silva262@example.com,+1-354-206-7718,491 Oak Ave,Boston,MA,80981,USA,BRONZE,2024-09-17,2025-05-26 19:57:34
+CUST000263,Carlos,Kim,carlos.kim263@example.com,+1-955-944-6038,1803 Oak Ave,Miami,FL,79443,USA,PLATINUM,2023-09-02,2025-10-11 13:00:48
+CUST000264,Susan,Jackson,susan.jackson264@example.com,+1-437-732-7767,6202 Maple Dr,New York,NY,21128,USA,SILVER,2024-05-31,2024-07-14 19:17:05
+CUST000265,Thomas,Jones,thomas.jones265@example.com,+1-645-878-3141,3979 Elm St,Seattle,WA,44208,USA,GOLD,2025-10-29,2025-11-29 09:37:36
+CUST000266,Olivia,Costa,olivia.costa266@example.com,+1-276-407-3230,9679 Main St,San Antonio,TX,30369,USA,BRONZE,2025-06-12,2025-10-09 13:28:17
+CUST000267,Joseph,Moore,joseph.moore267@example.com,+1-662-515-8591,4441 Main St,Philadelphia,PA,21851,USA,BRONZE,2025-11-23,2026-03-09 09:34:22
+CUST000268,Rahul,Martinez,rahul.martinez268@example.com,+1-351-293-5066,5928 Maple Dr,Atlanta,GA,77300,USA,BRONZE,2023-11-04,2024-10-04 11:53:54
+CUST000269,Elizabeth,Rodriguez,elizabeth.rodriguez269@example.com,+1-769-966-5093,1651 Maple Dr,Atlanta,GA,23357,USA,GOLD,2024-08-04,2025-11-10 08:25:54
+CUST000270,John,Brown,john.brown270@example.com,+1-402-610-7098,1476 2nd Ave,New York,NY,86823,USA,BRONZE,2023-12-18,2024-04-29 21:49:14
+CUST000271,Carlos,Williams,carlos.williams271@example.com,+1-331-294-6432,2107 Main St,New York,NY,70423,USA,BRONZE,2023-12-24,2025-03-22 11:57:41
+CUST000272,Olivia,Sharma,olivia.sharma272@example.com,+1-376-562-4517,3166 Elm St,San Antonio,TX,46681,USA,BRONZE,2025-10-30,2026-06-05 15:01:24
+CUST000273,John,Johnson,john.johnson273@example.com,+1-763-690-1999,1537 Elm St,Austin,TX,60202,USA,BRONZE,2024-12-29,2026-02-23 18:18:31
+CUST000274,Michael,Wang,michael.wang274@example.com,+1-219-591-6883,7959 2nd Ave,Miami,FL,73527,USA,BRONZE,2026-07-25,2026-08-11 11:40:51
+CUST000275,Charles,Patel,charles.patel275@example.com,+1-811-424-1480,4702 Main St,Philadelphia,PA,71824,USA,SILVER,2025-10-17,2026-03-29 12:11:01
+CUST000276,Wei,Sharma,wei.sharma276@example.com,+1-472-746-1916,3694 2nd Ave,Houston,TX,60911,USA,BRONZE,2024-07-05,2025-03-08 09:15:42
+CUST000277,Carlos,Garcia,carlos.garcia277@example.com,+1-805-228-6761,9400 2nd Ave,Chicago,IL,28625,USA,SILVER,2024-12-10,2025-12-12 17:20:51
+CUST000278,Michael,Costa,michael.costa278@example.com,+1-238-292-1920,3911 2nd Ave,Miami,FL,38679,USA,BRONZE,2026-05-18,2026-07-19 16:19:11
+CUST000279,Jessica,Smith,jessica.smith279@example.com,+1-531-260-1359,2520 2nd Ave,Philadelphia,PA,28566,USA,GOLD,2024-09-29,2025-03-29 20:08:21
+CUST000280,Sofia,Patel,sofia.patel280@example.com,+1-605-800-2655,5614 Elm St,Atlanta,GA,52284,USA,BRONZE,2025-08-30,2026-08-04 09:23:45
+CUST000281,Jennifer,Lee,jennifer.lee281@example.com,+1-775-910-6846,3757 2nd Ave,San Antonio,TX,32983,USA,BRONZE,2026-05-07,2026-08-05 18:20:11
+CUST000282,Arjun,Kim,arjun.kim282@example.com,+1-786-600-1530,3083 2nd Ave,Phoenix,AZ,51709,USA,GOLD,2024-04-30,2026-04-18 10:46:00
+CUST000283,Karen,Davis,karen.davis283@example.com,+1-279-443-6682,5334 Oak Ave,Seattle,WA,93386,USA,GOLD,2024-03-14,2026-04-16 15:09:21
+CUST000284,Robert,Kim,robert.kim284@example.com,+1-455-909-2110,5842 Elm St,Seattle,WA,24160,USA,SILVER,2025-07-01,2025-10-16 15:00:16
+CUST000285,Mary,Taylor,mary.taylor285@example.com,+1-587-559-9946,6249 Main St,San Diego,CA,72847,USA,GOLD,2025-12-20,2026-04-25 10:56:26
+CUST000286,Charles,Wang,charles.wang286@example.com,+1-501-220-6221,4378 Main St,Boston,MA,19725,USA,BRONZE,2024-11-17,2024-12-21 10:28:04
+CUST000287,Liam,Taylor,liam.taylor287@example.com,+1-808-828-8909,607 Maple Dr,Chicago,IL,95673,USA,BRONZE,2024-01-14,2024-12-25 16:57:05
+CUST000288,Liam,Thomas,liam.thomas288@example.com,+1-619-913-9849,4446 Elm St,Chicago,IL,48980,USA,BRONZE,2023-12-01,2024-06-12 09:21:13
+CUST000289,Mary,Taylor,mary.taylor289@example.com,+1-637-289-5825,9933 Maple Dr,Austin,TX,36171,USA,BRONZE,2026-05-15,2026-05-15 10:03:23
+CUST000290,Michael,Garcia,michael.garcia290@example.com,+1-515-607-8715,8113 Elm St,Seattle,WA,21945,USA,SILVER,2025-04-02,2025-05-31 09:30:54
+CUST000291,Richard,Garcia,richard.garcia291@example.com,+1-469-650-8619,4415 Oak Ave,Philadelphia,PA,45200,USA,SILVER,2025-10-03,2025-10-25 13:11:28
+CUST000292,John,Silva,john.silva292@example.com,+1-754-623-4727,9170 Main St,Denver,CO,60738,USA,GOLD,2024-02-28,2026-06-04 09:42:22
+CUST000293,Susan,Kumar,susan.kumar293@example.com,+1-506-280-7468,668 2nd Ave,Seattle,WA,84870,USA,GOLD,2026-04-12,2026-06-11 17:56:15
+CUST000294,Mei,Sharma,mei.sharma294@example.com,+1-371-416-4157,2167 Main St,Seattle,WA,65492,USA,BRONZE,2024-06-10,2024-12-04 09:48:28
+CUST000295,Rahul,Thomas,rahul.thomas295@example.com,+1-944-268-2425,6458 2nd Ave,Houston,TX,62082,USA,SILVER,2024-06-11,2025-05-04 21:38:16
+CUST000296,Sofia,Rodriguez,sofia.rodriguez296@example.com,+1-735-629-2843,6890 Oak Ave,Dallas,TX,29424,USA,SILVER,2026-03-09,2026-08-06 21:00:50
+CUST000297,Charles,Silva,charles.silva297@example.com,+1-492-748-6633,6832 Elm St,Los Angeles,CA,60206,USA,SILVER,2024-03-17,2026-05-30 17:49:06
+CUST000298,Charles,Chen,charles.chen298@example.com,+1-833-823-7581,735 Maple Dr,San Diego,CA,53449,USA,SILVER,2023-10-29,2024-03-24 10:17:25
+CUST000299,Mary,Lee,mary.lee299@example.com,+1-518-487-9054,1709 Oak Ave,San Diego,CA,27614,USA,BRONZE,2025-02-14,2025-12-21 13:01:21
+CUST000300,Arjun,Moore,arjun.moore300@example.com,+1-861-291-4079,7337 Oak Ave,Boston,MA,63368,USA,SILVER,2025-06-01,2026-04-06 12:46:26
+CUST000301,Wei,Patel,wei.patel301@example.com,+1-267-518-9303,6709 Oak Ave,Atlanta,GA,78719,USA,GOLD,2025-09-17,2025-12-07 21:03:32
+CUST000302,James,Garcia,james.garcia302@example.com,+1-667-251-6904,3362 Elm St,Houston,TX,58280,USA,GOLD,2024-09-28,2024-10-31 21:03:15
+CUST000303,Thomas,Taylor,thomas.taylor303@example.com,+1-700-808-8308,3009 Maple Dr,Seattle,WA,86923,USA,SILVER,2024-04-23,2025-05-09 18:01:15
+CUST000304,Barbara,Garcia,barbara.garcia304@example.com,+1-491-228-7333,913 Oak Ave,Atlanta,GA,85007,USA,GOLD,2025-01-24,2025-04-26 19:53:44
+CUST000305,Michael,Davis,michael.davis305@example.com,+1-725-220-1145,7867 Oak Ave,Seattle,WA,94852,USA,BRONZE,2024-11-17,2026-01-10 18:13:17
+CUST000306,Mei,Smith,mei.smith306@example.com,+1-633-585-6713,7620 Elm St,Houston,TX,38601,USA,SILVER,2025-01-11,2025-10-19 17:51:19
+CUST000307,Rahul,Patel,rahul.patel307@example.com,+1-878-583-5631,4990 Main St,Atlanta,GA,73142,USA,BRONZE,2025-11-04,2026-07-23 17:06:00
+CUST000308,David,Wang,david.wang308@example.com,+1-392-353-9475,4037 Main St,Philadelphia,PA,88647,USA,BRONZE,2025-03-03,2026-01-02 12:41:45
+CUST000309,William,Nguyen,william.nguyen309@example.com,+1-628-614-7361,678 2nd Ave,Chicago,IL,84978,USA,GOLD,2023-10-05,2025-03-19 18:31:18
+CUST000310,William,Lee,william.lee310@example.com,+1-887-567-9311,5018 Oak Ave,Denver,CO,96194,USA,GOLD,2024-11-11,2026-03-13 18:34:40
+CUST000311,Jennifer,Martinez,jennifer.martinez311@example.com,+1-896-543-2463,3741 Elm St,Los Angeles,CA,39272,USA,SILVER,2026-04-04,2026-05-20 10:47:16
+CUST000312,Elizabeth,Thomas,elizabeth.thomas312@example.com,+1-674-320-8709,979 2nd Ave,Boston,MA,86062,USA,PLATINUM,2025-06-22,2025-11-19 13:16:37
+CUST000313,Robert,Jackson,robert.jackson313@example.com,+1-590-742-5888,6868 Main St,Miami,FL,29762,USA,BRONZE,2024-09-15,2026-08-13 16:07:55
+CUST000314,Michael,Wilson,michael.wilson314@example.com,+1-997-282-8988,5549 Oak Ave,San Antonio,TX,51079,USA,SILVER,2026-03-08,2026-04-23 10:20:55
+CUST000315,James,Moore,james.moore315@example.com,+1-982-362-9021,1542 Oak Ave,Phoenix,AZ,90541,USA,BRONZE,2024-10-15,2026-05-28 20:49:10
+CUST000316,Susan,Taylor,susan.taylor316@example.com,+1-404-948-7112,330 Elm St,San Antonio,TX,79603,USA,BRONZE,2026-04-17,2026-06-24 14:00:02
+CUST000317,Rahul,Smith,rahul.smith317@example.com,+1-519-332-2682,6384 2nd Ave,Seattle,WA,87158,USA,BRONZE,2025-01-04,2025-12-22 11:44:56
+CUST000318,Robert,Johnson,robert.johnson318@example.com,+1-736-545-8105,2292 Elm St,Phoenix,AZ,74248,USA,BRONZE,2025-03-31,2026-01-30 15:46:33
+CUST000319,Michael,Garcia,michael.garcia319@example.com,+1-416-951-1359,9761 2nd Ave,Miami,FL,32149,USA,BRONZE,2025-11-17,2026-01-23 08:14:14
+CUST000320,Priya,Wang,priya.wang320@example.com,+1-989-747-1796,9830 Main St,Boston,MA,96765,USA,BRONZE,2023-10-29,2024-07-16 14:56:40
+CUST000321,Carlos,Smith,carlos.smith321@example.com,+1-760-458-8772,2608 Oak Ave,New York,NY,99881,USA,SILVER,2024-04-07,2024-08-11 14:28:24
+CUST000322,Elizabeth,Thomas,elizabeth.thomas322@example.com,+1-820-917-3247,6962 Main St,Seattle,WA,77054,USA,SILVER,2024-03-07,2025-12-04 18:33:17
+CUST000323,Patricia,Martinez,patricia.martinez323@example.com,+1-996-469-9571,3404 Elm St,Los Angeles,CA,63707,USA,BRONZE,2024-03-18,2024-10-08 15:12:38
+CUST000324,Mary,Kumar,mary.kumar324@example.com,+1-440-202-1208,1558 Main St,San Diego,CA,85255,USA,SILVER,2024-10-12,2025-09-15 19:59:30
+CUST000325,John,Williams,john.williams325@example.com,+1-462-859-4787,7583 Elm St,Boston,MA,44619,USA,SILVER,2026-06-26,2026-07-02 09:46:46
+CUST000326,Patricia,Garcia,patricia.garcia326@example.com,+1-893-520-7979,1998 Main St,Atlanta,GA,16014,USA,BRONZE,2023-11-02,2026-01-30 21:18:23
+CUST000327,John,Nguyen,john.nguyen327@example.com,+1-836-474-2522,6205 Elm St,Seattle,WA,33969,USA,BRONZE,2024-07-28,2025-10-19 13:22:57
+CUST000328,Richard,Moore,richard.moore328@example.com,+1-864-370-2852,2271 Main St,Phoenix,AZ,30892,USA,BRONZE,2025-10-11,2026-05-14 19:54:30
+CUST000329,Olivia,Sharma,olivia.sharma329@example.com,+1-826-229-3140,8014 Maple Dr,San Diego,CA,24802,USA,GOLD,2026-01-27,2026-04-28 10:39:24
+CUST000330,Joseph,Johnson,joseph.johnson330@example.com,+1-985-961-4669,5642 2nd Ave,Los Angeles,CA,78564,USA,SILVER,2025-01-30,2026-07-21 18:20:00
+CUST000331,Karen,Brown,karen.brown331@example.com,+1-352-771-1894,290 Oak Ave,San Antonio,TX,76265,USA,GOLD,2025-01-04,2026-02-02 15:22:42
+CUST000332,Sofia,Jackson,sofia.jackson332@example.com,+1-446-538-5557,924 2nd Ave,Atlanta,GA,39190,USA,SILVER,2024-07-17,2025-06-10 09:48:31
+CUST000333,Richard,Taylor,richard.taylor333@example.com,+1-658-290-9166,7424 Elm St,Atlanta,GA,25559,USA,PLATINUM,2024-12-07,2026-07-16 09:29:28
+CUST000334,Arjun,Wang,arjun.wang334@example.com,+1-762-200-2489,9999 2nd Ave,New York,NY,93563,USA,BRONZE,2024-03-11,2025-10-02 14:26:02
+CUST000335,Thomas,Kumar,thomas.kumar335@example.com,+1-428-665-6439,9277 2nd Ave,Houston,TX,88636,USA,SILVER,2026-03-05,2026-03-18 13:23:52
+CUST000336,Rahul,Anderson,rahul.anderson336@example.com,+1-427-202-6592,5918 Elm St,Denver,CO,81786,USA,SILVER,2026-02-25,2026-08-12 09:06:48
+CUST000337,Priya,Brown,priya.brown337@example.com,+1-960-938-7704,1852 Elm St,New York,NY,90065,USA,BRONZE,2024-07-15,2026-07-19 15:08:52
+CUST000338,Patricia,Taylor,patricia.taylor338@example.com,+1-310-975-7790,861 2nd Ave,Houston,TX,26150,USA,GOLD,2026-03-07,2026-06-01 21:50:12
+CUST000339,Joseph,Moore,joseph.moore339@example.com,+1-766-643-8912,8428 Oak Ave,Seattle,WA,85832,USA,BRONZE,2026-06-11,2026-06-17 10:31:00
+CUST000340,Carlos,Jones,carlos.jones340@example.com,+1-716-593-7859,4167 Elm St,Los Angeles,CA,62149,USA,PLATINUM,2025-10-15,2026-03-28 18:38:38
+CUST000341,Elizabeth,Moore,elizabeth.moore341@example.com,+1-966-724-5897,9075 Elm St,Boston,MA,82559,USA,SILVER,2024-05-13,2026-04-29 10:26:38
+CUST000342,Michael,Miller,michael.miller342@example.com,+1-335-927-3913,8355 2nd Ave,Austin,TX,93476,USA,BRONZE,2025-03-31,2026-03-10 18:22:58
+CUST000343,Patricia,Silva,patricia.silva343@example.com,+1-627-890-9747,4784 Maple Dr,Philadelphia,PA,11673,USA,SILVER,2026-04-23,2026-07-22 17:36:42
+CUST000344,James,Taylor,james.taylor344@example.com,+1-968-364-5695,4205 Oak Ave,Chicago,IL,18130,USA,SILVER,2023-11-30,2024-08-29 18:03:12
+CUST000345,Elizabeth,Miller,elizabeth.miller345@example.com,+1-830-891-4675,9295 Maple Dr,Boston,MA,41142,USA,SILVER,2023-10-19,2024-05-15 13:52:28
+CUST000346,Mei,Costa,mei.costa346@example.com,+1-590-596-7825,5222 2nd Ave,Denver,CO,17051,USA,BRONZE,2025-03-25,2026-07-12 19:42:03
+CUST000347,David,Miller,david.miller347@example.com,+1-921-926-7025,9740 2nd Ave,Austin,TX,89087,USA,BRONZE,2026-02-06,2026-07-18 21:14:58
+CUST000348,Arjun,Miller,arjun.miller348@example.com,+1-377-952-9418,2055 Maple Dr,Phoenix,AZ,15326,USA,BRONZE,2026-02-18,2026-04-06 10:43:04
+CUST000349,Sarah,Rodriguez,sarah.rodriguez349@example.com,+1-538-677-3536,754 Oak Ave,Chicago,IL,52287,USA,SILVER,2024-07-08,2024-07-13 17:54:16
+CUST000350,Wei,Wang,wei.wang350@example.com,+1-566-274-6207,8708 Oak Ave,Austin,TX,34100,USA,SILVER,2025-04-21,2026-01-27 15:50:36
+CUST000351,Mei,Patel,mei.patel351@example.com,+1-557-426-4495,5537 Elm St,Chicago,IL,57290,USA,BRONZE,2025-12-12,2026-01-04 16:34:25
+CUST000352,Wei,Chen,wei.chen352@example.com,+1-209-317-6668,7401 Oak Ave,Dallas,TX,94182,USA,SILVER,2026-04-12,2026-07-04 16:52:48
+CUST000353,Karen,Davis,karen.davis353@example.com,+1-595-462-9851,4733 Main St,New York,NY,77746,USA,GOLD,2025-06-01,2025-07-29 14:58:50
+CUST000354,Barbara,Patel,barbara.patel354@example.com,+1-867-397-6248,8519 Main St,Boston,MA,22577,USA,BRONZE,2026-06-20,2026-07-08 15:31:02
+CUST000355,Wei,Kumar,wei.kumar355@example.com,+1-901-634-2702,3468 2nd Ave,Dallas,TX,67047,USA,SILVER,2023-08-29,2024-11-07 18:04:13
+CUST000356,Robert,Lee,robert.lee356@example.com,+1-238-289-2200,989 Oak Ave,Seattle,WA,43018,USA,SILVER,2024-06-23,2025-05-28 08:29:45
+CUST000357,Charles,Davis,charles.davis357@example.com,+1-643-523-1276,6481 Main St,Miami,FL,80101,USA,BRONZE,2025-01-24,2026-03-14 14:24:28
+CUST000358,Arjun,Chen,arjun.chen358@example.com,+1-714-308-5748,5037 2nd Ave,Los Angeles,CA,21338,USA,BRONZE,2023-11-15,2024-11-15 19:54:04
+CUST000359,Olivia,Moore,olivia.moore359@example.com,+1-360-746-4602,2334 Maple Dr,San Antonio,TX,81529,USA,BRONZE,2025-10-31,2026-06-30 21:42:01
+CUST000360,Ananya,Jones,ananya.jones360@example.com,+1-344-326-1684,182 2nd Ave,Phoenix,AZ,88204,USA,BRONZE,2025-09-16,2026-06-27 08:35:55
+CUST000361,Sarah,Williams,sarah.williams361@example.com,+1-416-622-9397,2433 Oak Ave,Phoenix,AZ,34116,USA,BRONZE,2024-10-17,2025-10-04 19:47:57
+CUST000362,Carlos,Rodriguez,carlos.rodriguez362@example.com,+1-255-969-9992,7657 2nd Ave,Houston,TX,19587,USA,BRONZE,2024-04-04,2025-11-05 10:42:51
+CUST000363,Robert,Rodriguez,robert.rodriguez363@example.com,+1-565-331-4842,1739 Elm St,Los Angeles,CA,91201,USA,BRONZE,2024-09-21,2025-08-25 19:37:31
+CUST000364,Michael,Wilson,michael.wilson364@example.com,+1-910-798-3496,9366 2nd Ave,San Diego,CA,57774,USA,GOLD,2026-02-21,2026-05-10 13:39:42
+CUST000365,Susan,Garcia,susan.garcia365@example.com,+1-957-856-8145,4633 Elm St,New York,NY,27603,USA,SILVER,2025-05-16,2026-05-15 11:50:14
+CUST000366,William,Jackson,william.jackson366@example.com,+1-764-311-3879,1443 Elm St,San Diego,CA,28350,USA,GOLD,2026-02-11,2026-06-15 13:49:19
+CUST000367,Michael,Rodriguez,michael.rodriguez367@example.com,+1-719-846-1511,9633 2nd Ave,Denver,CO,63101,USA,GOLD,2024-01-17,2024-02-05 19:04:57
+CUST000368,Michael,Johnson,michael.johnson368@example.com,+1-869-993-3435,6093 Maple Dr,Dallas,TX,39269,USA,GOLD,2025-01-28,2026-05-26 16:57:34
+CUST000369,Charles,Lee,charles.lee369@example.com,+1-292-606-6961,8327 Main St,Atlanta,GA,96858,USA,BRONZE,2025-03-31,2025-12-17 10:29:32
+CUST000370,Mei,Chen,mei.chen370@example.com,+1-363-383-3395,8021 Elm St,Seattle,WA,15297,USA,BRONZE,2024-07-18,2025-10-17 20:32:08
+CUST000371,Jessica,Davis,jessica.davis371@example.com,+1-730-569-7358,7795 Maple Dr,Los Angeles,CA,16086,USA,BRONZE,2025-02-05,2025-09-04 13:14:02
+CUST000372,Ananya,Wilson,ananya.wilson372@example.com,+1-959-469-9918,9441 Oak Ave,Los Angeles,CA,59369,USA,SILVER,2026-07-16,2026-08-11 18:53:17
+CUST000373,Barbara,Sharma,barbara.sharma373@example.com,+1-428-728-7649,5881 Elm St,Seattle,WA,73813,USA,GOLD,2024-01-20,2026-08-06 16:16:24
+CUST000374,Liam,Chen,liam.chen374@example.com,+1-278-726-5600,3565 Oak Ave,New York,NY,34498,USA,BRONZE,2026-06-06,2026-07-05 10:28:10
+CUST000375,Karen,Kim,karen.kim375@example.com,+1-538-937-2856,7989 Maple Dr,Atlanta,GA,72786,USA,BRONZE,2024-04-12,2026-07-21 18:14:26
+CUST000376,Jennifer,Wang,jennifer.wang376@example.com,+1-787-806-3639,2307 2nd Ave,Atlanta,GA,15136,USA,GOLD,2025-12-02,2026-01-03 08:15:02
+CUST000377,John,Johnson,john.johnson377@example.com,+1-936-945-5644,1504 Oak Ave,Chicago,IL,68877,USA,SILVER,2025-01-23,2025-02-11 10:33:25
+CUST000378,Jessica,Jackson,jessica.jackson378@example.com,+1-796-985-3979,8469 Elm St,Chicago,IL,31983,USA,SILVER,2024-11-05,2025-03-31 21:26:38
+CUST000379,William,Moore,william.moore379@example.com,+1-311-216-4315,8664 2nd Ave,Austin,TX,99701,USA,BRONZE,2024-01-01,2024-05-15 11:24:24
+CUST000380,John,Chen,john.chen380@example.com,+1-239-744-9246,2025 Main St,Los Angeles,CA,73208,USA,SILVER,2024-08-11,2026-04-17 15:57:39
+CUST000381,Liam,Chen,liam.chen381@example.com,+1-734-630-7068,811 2nd Ave,Dallas,TX,66224,USA,BRONZE,2023-08-16,2026-01-15 20:43:41
+CUST000382,Mei,Jackson,mei.jackson382@example.com,+1-300-635-3193,4270 Maple Dr,Boston,MA,40475,USA,GOLD,2025-10-02,2026-07-23 13:37:51
+CUST000383,Robert,Martinez,robert.martinez383@example.com,+1-791-735-2930,8615 Main St,Austin,TX,59155,USA,SILVER,2025-11-27,2025-11-30 12:12:00
+CUST000384,Priya,Costa,priya.costa384@example.com,+1-867-799-5155,4381 2nd Ave,Philadelphia,PA,65517,USA,SILVER,2025-11-28,2026-07-04 13:06:09
+CUST000385,Karen,Rodriguez,karen.rodriguez385@example.com,+1-770-694-3928,6165 2nd Ave,Seattle,WA,82733,USA,SILVER,2025-11-04,2026-08-13 20:13:26
+CUST000386,Elizabeth,Sharma,elizabeth.sharma386@example.com,+1-965-435-8317,2750 Main St,Philadelphia,PA,38109,USA,SILVER,2025-11-06,2026-01-05 19:08:54
+CUST000387,Mei,Wilson,mei.wilson387@example.com,+1-293-348-8727,9934 Maple Dr,Boston,MA,21552,USA,BRONZE,2023-11-28,2023-12-03 10:24:40
+CUST000388,Linda,Anderson,linda.anderson388@example.com,+1-610-828-9536,4793 2nd Ave,Los Angeles,CA,17531,USA,PLATINUM,2023-10-30,2026-08-03 19:24:59
+CUST000389,Carlos,Garcia,carlos.garcia389@example.com,+1-492-399-1550,9922 2nd Ave,Seattle,WA,77608,USA,SILVER,2026-05-22,2026-07-27 15:00:12
+CUST000390,Karen,Garcia,karen.garcia390@example.com,+1-361-288-5520,6644 Elm St,Seattle,WA,97773,USA,BRONZE,2023-10-26,2023-10-26 13:15:41
+CUST000391,Charles,Miller,charles.miller391@example.com,+1-762-491-6703,5793 Elm St,Dallas,TX,39661,USA,SILVER,2023-09-14,2024-03-16 19:45:04
+CUST000392,Michael,Moore,michael.moore392@example.com,+1-616-718-2744,9252 Main St,Miami,FL,75951,USA,BRONZE,2025-11-18,2026-02-15 17:00:16
+CUST000393,Patricia,Costa,patricia.costa393@example.com,+1-910-653-7178,9326 Maple Dr,Dallas,TX,41886,USA,GOLD,2025-01-22,2025-10-05 16:52:50
+CUST000394,Wei,Moore,wei.moore394@example.com,+1-319-464-2106,6369 Oak Ave,Seattle,WA,98724,USA,SILVER,2026-03-14,2026-07-15 17:55:01
+CUST000395,Mei,Wilson,mei.wilson395@example.com,+1-469-454-5706,1623 Maple Dr,San Antonio,TX,98302,USA,SILVER,2025-08-06,2026-07-30 16:34:00
+CUST000396,William,Williams,william.williams396@example.com,+1-787-475-3994,3215 Maple Dr,Dallas,TX,36170,USA,BRONZE,2024-08-13,2025-03-24 15:20:22
+CUST000397,Linda,Rodriguez,linda.rodriguez397@example.com,+1-359-997-2747,2064 Main St,Houston,TX,98580,USA,PLATINUM,2024-11-25,2025-11-24 11:53:15
+CUST000398,Jessica,Chen,jessica.chen398@example.com,+1-522-704-5501,8141 Oak Ave,New York,NY,76995,USA,BRONZE,2023-11-08,2025-08-04 21:30:23
+CUST000399,Linda,Silva,linda.silva399@example.com,+1-689-753-1533,8332 Elm St,Austin,TX,61605,USA,GOLD,2024-05-02,2025-07-09 08:33:51
+CUST000400,Wei,Garcia,wei.garcia400@example.com,+1-905-208-1193,3552 Maple Dr,San Diego,CA,86153,USA,BRONZE,2024-04-16,2025-03-05 19:33:29
+CUST000401,Barbara,Chen,barbara.chen401@example.com,+1-475-682-6621,6095 Oak Ave,Atlanta,GA,75374,USA,BRONZE,2025-01-26,2025-09-25 10:35:16
+CUST000402,Susan,Kim,susan.kim402@example.com,+1-661-384-3148,9535 Oak Ave,Boston,MA,23090,USA,SILVER,2025-09-14,2026-02-04 13:54:25
+CUST000403,Mei,Davis,mei.davis403@example.com,+1-956-353-8749,259 Oak Ave,Dallas,TX,65249,USA,SILVER,2026-01-15,2026-02-21 21:24:12
+CUST000404,Liam,Wang,liam.wang404@example.com,+1-507-456-1781,6627 Main St,Dallas,TX,31409,USA,BRONZE,2026-08-11,2026-08-12 19:20:50
+CUST000405,Carlos,Rodriguez,carlos.rodriguez405@example.com,+1-569-568-5222,5738 Main St,San Diego,CA,63970,USA,BRONZE,2024-02-27,2024-11-19 15:47:21
+CUST000406,Sofia,Nguyen,sofia.nguyen406@example.com,+1-751-378-5663,5918 Elm St,Austin,TX,98236,USA,SILVER,2024-09-24,2026-07-20 17:36:41
+CUST000407,Wei,Lee,wei.lee407@example.com,+1-846-348-3745,5627 Maple Dr,San Diego,CA,92742,USA,SILVER,2024-01-21,2025-05-09 14:39:18
+CUST000408,Richard,Williams,richard.williams408@example.com,+1-868-498-5382,6579 Elm St,Los Angeles,CA,68313,USA,GOLD,2024-07-10,2025-05-30 13:14:20
+CUST000409,Barbara,Lee,barbara.lee409@example.com,+1-223-328-4844,4222 Main St,Austin,TX,37600,USA,BRONZE,2026-07-15,2026-07-20 15:26:10
+CUST000410,Patricia,Brown,patricia.brown410@example.com,+1-606-736-2363,1802 Elm St,Los Angeles,CA,91015,USA,BRONZE,2026-04-09,2026-07-16 16:03:01
+CUST000411,Ananya,Taylor,ananya.taylor411@example.com,+1-841-329-3150,8730 Oak Ave,Phoenix,AZ,13744,USA,BRONZE,2024-11-25,2026-02-21 11:47:18
+CUST000412,Barbara,Wilson,barbara.wilson412@example.com,+1-478-761-8288,2313 2nd Ave,Atlanta,GA,33204,USA,SILVER,2026-04-15,2026-08-12 15:55:34
+CUST000413,Joseph,Wang,joseph.wang413@example.com,+1-517-555-8891,8941 Oak Ave,Denver,CO,21738,USA,BRONZE,2026-01-20,2026-06-05 16:40:40
+CUST000414,Barbara,Thomas,barbara.thomas414@example.com,+1-976-339-6634,4798 Maple Dr,Phoenix,AZ,80136,USA,BRONZE,2024-06-27,2025-12-14 12:00:00
+CUST000415,Olivia,Jackson,olivia.jackson415@example.com,+1-499-811-4788,218 2nd Ave,Boston,MA,58974,USA,BRONZE,2026-04-17,2026-06-11 12:00:49
+CUST000416,Liam,Kumar,liam.kumar416@example.com,+1-587-425-5308,1397 Maple Dr,San Antonio,TX,91962,USA,BRONZE,2025-10-30,2026-05-17 11:10:45
+CUST000417,Wei,Costa,wei.costa417@example.com,+1-622-392-2121,3088 Oak Ave,Miami,FL,47957,USA,BRONZE,2025-02-20,2025-11-22 12:41:47
+CUST000418,Joseph,Chen,joseph.chen418@example.com,+1-528-219-3492,913 2nd Ave,San Diego,CA,12900,USA,BRONZE,2025-02-21,2025-09-01 19:39:31
+CUST000419,Patricia,Martinez,patricia.martinez419@example.com,+1-438-292-3468,341 Maple Dr,Phoenix,AZ,38467,USA,BRONZE,2024-04-26,2024-05-04 19:28:46
+CUST000420,Elizabeth,Costa,elizabeth.costa420@example.com,+1-538-282-3393,1018 Elm St,Boston,MA,61435,USA,BRONZE,2026-05-30,2026-06-03 13:29:44
+CUST000421,Jessica,Garcia,jessica.garcia421@example.com,+1-324-986-5078,6404 Maple Dr,Houston,TX,42396,USA,SILVER,2025-01-07,2025-01-19 21:24:53
+CUST000422,Mary,Miller,mary.miller422@example.com,+1-598-897-6113,5393 Oak Ave,San Diego,CA,92465,USA,SILVER,2024-02-22,2025-06-20 16:42:13
+CUST000423,Arjun,Kumar,arjun.kumar423@example.com,+1-403-569-1853,3668 Main St,Dallas,TX,40928,USA,SILVER,2024-04-20,2025-02-19 12:30:40
+CUST000424,William,Smith,william.smith424@example.com,+1-209-243-8786,9868 Oak Ave,Chicago,IL,58679,USA,GOLD,2025-03-01,2025-11-04 17:07:25
+CUST000425,Linda,Garcia,linda.garcia425@example.com,+1-840-261-1979,5924 Oak Ave,San Diego,CA,80300,USA,GOLD,2024-02-17,2026-04-04 18:39:21
+CUST000426,John,Jackson,john.jackson426@example.com,+1-555-649-4161,449 Maple Dr,Houston,TX,56945,USA,SILVER,2025-05-23,2026-06-14 16:50:41
+CUST000427,David,Johnson,david.johnson427@example.com,+1-701-394-4057,9006 Elm St,San Diego,CA,52425,USA,SILVER,2026-01-26,2026-07-23 16:18:34
+CUST000428,David,Chen,david.chen428@example.com,+1-502-469-9873,6114 Maple Dr,Miami,FL,10094,USA,GOLD,2024-07-07,2025-10-10 09:33:09
+CUST000429,Thomas,Taylor,thomas.taylor429@example.com,+1-994-835-4912,5354 Main St,Denver,CO,96283,USA,PLATINUM,2024-08-27,2025-09-03 08:39:54
+CUST000430,Carlos,Taylor,carlos.taylor430@example.com,+1-357-827-5638,5385 Maple Dr,Houston,TX,94004,USA,BRONZE,2026-07-22,2026-08-08 18:31:49
+CUST000431,Patricia,Patel,patricia.patel431@example.com,+1-232-406-2753,8052 Oak Ave,Seattle,WA,22943,USA,BRONZE,2023-12-28,2024-06-27 08:53:08
+CUST000432,Ananya,Taylor,ananya.taylor432@example.com,+1-462-250-7002,3716 2nd Ave,Seattle,WA,19289,USA,BRONZE,2026-05-13,2026-07-27 16:39:44
+CUST000433,Olivia,Miller,olivia.miller433@example.com,+1-262-569-7814,6146 Main St,Seattle,WA,90862,USA,BRONZE,2026-05-16,2026-08-05 21:05:29
+CUST000434,Mary,Lee,mary.lee434@example.com,+1-303-942-4784,8810 Maple Dr,Los Angeles,CA,34832,USA,BRONZE,2025-04-27,2025-06-15 09:13:33
+CUST000435,Rahul,Davis,rahul.davis435@example.com,+1-964-308-6864,7615 Maple Dr,Austin,TX,23644,USA,BRONZE,2024-08-14,2025-10-13 16:47:35
+CUST000436,Jennifer,Kumar,jennifer.kumar436@example.com,+1-814-653-6772,5263 2nd Ave,San Antonio,TX,52553,USA,GOLD,2026-06-12,2026-07-16 13:42:10
+CUST000437,Susan,Silva,susan.silva437@example.com,+1-446-776-9939,3604 Maple Dr,Seattle,WA,82120,USA,GOLD,2026-01-11,2026-06-15 21:46:20
+CUST000438,David,Anderson,david.anderson438@example.com,+1-491-810-1267,8580 Oak Ave,San Diego,CA,49562,USA,BRONZE,2026-02-15,2026-02-23 14:00:46
+CUST000439,Linda,Miller,linda.miller439@example.com,+1-482-766-9376,9214 2nd Ave,Atlanta,GA,84922,USA,BRONZE,2025-05-19,2026-05-07 08:49:52
+CUST000440,Mary,Moore,mary.moore440@example.com,+1-455-438-5198,5020 Main St,Philadelphia,PA,84774,USA,BRONZE,2024-06-28,2026-02-14 10:16:23
+CUST000441,Olivia,Miller,olivia.miller441@example.com,+1-377-699-2562,9852 Elm St,Denver,CO,14898,USA,SILVER,2024-01-19,2025-05-27 19:20:50
+CUST000442,Charles,Taylor,charles.taylor442@example.com,+1-644-626-2974,3814 2nd Ave,Los Angeles,CA,11498,USA,SILVER,2023-12-06,2026-05-24 20:21:22
+CUST000443,Ananya,Taylor,ananya.taylor443@example.com,+1-778-353-6354,8331 Oak Ave,New York,NY,30079,USA,BRONZE,2025-04-29,2026-01-30 16:02:20
+CUST000444,Arjun,Taylor,arjun.taylor444@example.com,+1-603-351-3165,5607 Main St,San Diego,CA,72371,USA,SILVER,2026-06-12,2026-06-30 09:14:27
+CUST000445,Mary,Kumar,mary.kumar445@example.com,+1-992-914-3136,2309 Maple Dr,San Antonio,TX,83308,USA,BRONZE,2025-02-01,2026-04-21 09:25:32
+CUST000446,Richard,Wang,richard.wang446@example.com,+1-452-448-2173,4462 Maple Dr,Austin,TX,52390,USA,SILVER,2024-09-18,2026-03-08 16:39:47
+CUST000447,Charles,Williams,charles.williams447@example.com,+1-528-552-1396,5094 Oak Ave,Los Angeles,CA,55838,USA,SILVER,2025-12-08,2026-01-25 14:23:22
+CUST000448,Mei,Moore,mei.moore448@example.com,+1-404-901-7124,2655 Main St,Austin,TX,24728,USA,SILVER,2024-06-07,2025-02-01 15:02:59
+CUST000449,Linda,Chen,linda.chen449@example.com,+1-214-551-2823,5099 Maple Dr,Miami,FL,71759,USA,BRONZE,2024-06-11,2025-04-01 21:53:52
+CUST000450,Michael,Lee,michael.lee450@example.com,+1-761-694-3315,401 Maple Dr,Dallas,TX,86415,USA,GOLD,2024-10-20,2025-07-11 11:34:33
+CUST000451,Thomas,Johnson,thomas.johnson451@example.com,+1-832-477-1869,7717 Main St,Phoenix,AZ,18729,USA,BRONZE,2024-07-27,2026-07-10 08:18:12
+CUST000452,David,Nguyen,david.nguyen452@example.com,+1-864-595-4787,6337 2nd Ave,Atlanta,GA,23055,USA,GOLD,2025-08-20,2026-01-16 21:06:01
+CUST000453,Jessica,Chen,jessica.chen453@example.com,+1-774-929-1352,751 Oak Ave,Dallas,TX,79391,USA,BRONZE,2024-02-10,2025-05-23 10:12:32
+CUST000454,Jessica,Taylor,jessica.taylor454@example.com,+1-563-840-5953,3969 2nd Ave,Denver,CO,46159,USA,GOLD,2024-06-30,2025-06-25 08:22:43
+CUST000455,Ananya,Rodriguez,ananya.rodriguez455@example.com,+1-430-355-6599,6536 Oak Ave,Miami,FL,21507,USA,SILVER,2025-10-14,2026-03-06 21:01:35
+CUST000456,Thomas,Nguyen,thomas.nguyen456@example.com,+1-636-519-6395,7459 2nd Ave,Austin,TX,27271,USA,BRONZE,2024-11-21,2025-04-26 14:15:36
+CUST000457,John,Sharma,john.sharma457@example.com,+1-338-640-3378,9354 Oak Ave,Dallas,TX,51614,USA,BRONZE,2024-10-01,2026-03-21 21:08:19
+CUST000458,Sarah,Lee,sarah.lee458@example.com,+1-944-230-6221,6883 Maple Dr,Los Angeles,CA,49760,USA,BRONZE,2024-08-25,2025-01-21 13:53:56
+CUST000459,Olivia,Wang,olivia.wang459@example.com,+1-334-389-1429,4472 2nd Ave,Miami,FL,84323,USA,SILVER,2025-02-24,2025-06-13 10:49:12
+CUST000460,Karen,Davis,karen.davis460@example.com,+1-337-714-8680,6226 Oak Ave,Houston,TX,60785,USA,SILVER,2023-10-06,2026-06-08 13:05:44
+CUST000461,John,Garcia,john.garcia461@example.com,+1-476-622-4646,3423 Oak Ave,Houston,TX,18668,USA,BRONZE,2024-11-19,2024-12-04 08:26:48
+CUST000462,Joseph,Chen,joseph.chen462@example.com,+1-637-614-1685,6332 Elm St,San Diego,CA,61662,USA,SILVER,2025-06-09,2025-10-13 21:29:56
+CUST000463,Arjun,Sharma,arjun.sharma463@example.com,+1-733-311-8399,7585 Main St,Austin,TX,42207,USA,SILVER,2026-07-24,2026-07-25 18:56:45
+CUST000464,Richard,Lee,richard.lee464@example.com,+1-394-498-8201,6621 Elm St,New York,NY,47475,USA,SILVER,2025-10-15,2025-11-09 16:48:40
+CUST000465,Susan,Martinez,susan.martinez465@example.com,+1-674-861-8400,1581 2nd Ave,Austin,TX,24833,USA,BRONZE,2023-12-03,2024-04-26 19:33:57
+CUST000466,Charles,Kim,charles.kim466@example.com,+1-225-383-8433,9771 Oak Ave,Dallas,TX,69596,USA,BRONZE,2024-05-17,2025-08-21 14:26:20
+CUST000467,William,Kim,william.kim467@example.com,+1-316-923-8362,6046 Main St,Seattle,WA,78657,USA,SILVER,2024-07-14,2024-10-15 19:46:07
+CUST000468,Arjun,Costa,arjun.costa468@example.com,+1-986-374-6491,9365 Oak Ave,Dallas,TX,31249,USA,GOLD,2024-07-06,2024-08-19 14:35:24
+CUST000469,Jennifer,Silva,jennifer.silva469@example.com,+1-987-656-5731,3060 Main St,Denver,CO,27245,USA,PLATINUM,2023-11-27,2025-12-13 14:19:19
+CUST000470,James,Chen,james.chen470@example.com,+1-756-205-9084,3997 Oak Ave,Boston,MA,87183,USA,SILVER,2025-01-13,2026-06-07 08:29:31
+CUST000471,Joseph,Thomas,joseph.thomas471@example.com,+1-760-484-4401,901 Oak Ave,San Diego,CA,29432,USA,BRONZE,2024-01-23,2024-09-29 17:38:00
+CUST000472,Barbara,Johnson,barbara.johnson472@example.com,+1-539-289-1803,1884 Maple Dr,Chicago,IL,33363,USA,BRONZE,2023-10-19,2025-06-21 18:36:53
+CUST000473,Elizabeth,Chen,elizabeth.chen473@example.com,+1-236-295-5903,5389 Elm St,Seattle,WA,59668,USA,GOLD,2024-08-11,2025-08-14 15:47:37
+CUST000474,Wei,Thomas,wei.thomas474@example.com,+1-911-481-6393,8735 Maple Dr,Atlanta,GA,78766,USA,BRONZE,2023-12-24,2024-04-26 12:30:08
+CUST000475,Michael,Chen,michael.chen475@example.com,+1-289-695-5705,7096 2nd Ave,New York,NY,51482,USA,BRONZE,2024-03-24,2025-09-16 17:46:40
+CUST000476,Charles,Chen,charles.chen476@example.com,+1-946-847-9154,8169 Oak Ave,Philadelphia,PA,89876,USA,BRONZE,2024-05-05,2025-10-19 17:36:31
+CUST000477,Elizabeth,Miller,elizabeth.miller477@example.com,+1-320-955-4396,6893 Maple Dr,New York,NY,15962,USA,BRONZE,2024-04-12,2026-07-06 08:29:40
+CUST000478,Sarah,Costa,sarah.costa478@example.com,+1-460-269-6042,5019 2nd Ave,Seattle,WA,82088,USA,BRONZE,2024-10-21,2025-08-05 08:40:12
+CUST000479,James,Brown,james.brown479@example.com,+1-830-229-3877,3278 Elm St,Seattle,WA,54294,USA,GOLD,2025-06-26,2026-04-13 13:25:46
+CUST000480,Jessica,Jackson,jessica.jackson480@example.com,+1-842-671-9797,5590 Maple Dr,Boston,MA,64257,USA,GOLD,2023-10-25,2024-09-07 18:08:30
+CUST000481,Mary,Patel,mary.patel481@example.com,+1-791-901-6434,5893 Main St,Phoenix,AZ,29569,USA,BRONZE,2025-05-21,2025-09-04 16:34:01
+CUST000482,James,Wilson,james.wilson482@example.com,+1-391-809-2914,5150 Elm St,San Antonio,TX,14145,USA,BRONZE,2026-08-12,2026-08-13 21:10:36
+CUST000483,Robert,Jackson,robert.jackson483@example.com,+1-421-737-5953,2967 Main St,Miami,FL,59049,USA,GOLD,2024-12-12,2025-10-17 13:28:53
+CUST000484,Wei,Miller,wei.miller484@example.com,+1-694-712-3524,3216 Elm St,Miami,FL,73369,USA,SILVER,2024-02-19,2026-05-17 15:32:01
+CUST000485,Thomas,Martinez,thomas.martinez485@example.com,+1-728-892-3174,3461 Main St,Boston,MA,70210,USA,BRONZE,2025-06-14,2025-08-03 10:49:55
+CUST000486,Sofia,Patel,sofia.patel486@example.com,+1-541-678-1755,1789 2nd Ave,Los Angeles,CA,96374,USA,SILVER,2023-08-22,2024-02-16 12:59:02
+CUST000487,James,Sharma,james.sharma487@example.com,+1-405-397-5695,4632 2nd Ave,Boston,MA,51831,USA,GOLD,2025-05-14,2025-10-25 18:57:13
+CUST000488,Rahul,Brown,rahul.brown488@example.com,+1-837-773-9422,1777 Oak Ave,Phoenix,AZ,81110,USA,BRONZE,2024-06-14,2024-06-29 10:17:07
+CUST000489,William,Rodriguez,william.rodriguez489@example.com,+1-518-827-6549,8956 Maple Dr,Chicago,IL,16648,USA,BRONZE,2025-03-16,2025-05-27 17:15:10
+CUST000490,Jessica,Nguyen,jessica.nguyen490@example.com,+1-601-383-8304,5926 Elm St,New York,NY,53559,USA,GOLD,2024-03-17,2025-05-27 14:03:05
+CUST000491,Priya,Silva,priya.silva491@example.com,+1-781-334-2522,7772 Main St,Seattle,WA,69714,USA,BRONZE,2026-08-10,2026-08-13 09:59:48
+CUST000492,Ananya,Kim,ananya.kim492@example.com,+1-831-464-6954,6523 Oak Ave,Boston,MA,97186,USA,BRONZE,2026-03-24,2026-04-29 15:14:14
+CUST000493,Sofia,Wilson,sofia.wilson493@example.com,+1-559-690-8556,2898 Elm St,San Diego,CA,55693,USA,SILVER,2026-05-08,2026-05-22 08:04:30
+CUST000494,John,Patel,john.patel494@example.com,+1-533-769-2162,5049 2nd Ave,Los Angeles,CA,70420,USA,BRONZE,2025-11-21,2026-01-14 21:45:50
+CUST000495,Susan,Davis,susan.davis495@example.com,+1-267-548-4411,9782 Maple Dr,Austin,TX,67062,USA,SILVER,2024-12-25,2026-01-22 16:10:30
+CUST000496,William,Kumar,william.kumar496@example.com,+1-957-928-8972,1973 2nd Ave,Denver,CO,88128,USA,SILVER,2024-12-09,2025-02-26 10:42:42
+CUST000497,Sarah,Brown,sarah.brown497@example.com,+1-812-311-7208,5464 Maple Dr,Atlanta,GA,94540,USA,SILVER,2026-02-10,2026-02-27 10:19:25
+CUST000498,Robert,Miller,robert.miller498@example.com,+1-200-975-3403,2544 Maple Dr,Atlanta,GA,79632,USA,BRONZE,2024-05-24,2026-03-06 17:57:48
+CUST000499,Karen,Sharma,karen.sharma499@example.com,+1-506-783-5989,7222 Elm St,San Diego,CA,21703,USA,SILVER,2024-09-17,2025-08-07 11:43:56
+CUST000500,Karen,Patel,karen.patel500@example.com,+1-762-254-1013,9275 Elm St,San Antonio,TX,24378,USA,GOLD,2024-05-01,2025-05-14 21:18:03
