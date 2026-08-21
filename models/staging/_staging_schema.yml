@@ -5,79 +5,120 @@ models:
     description: One row per customer, lightly cleaned/cast from RAW.
     columns:
       - name: customer_id
-        tests: [unique, not_null]
+        data_tests:
+          - unique
+          - not_null
+
       - name: email
-        tests: [not_null]
+        data_tests:
+          - not_null
+
       - name: loyalty_tier
-        tests:
+        data_tests:
           - accepted_values:
-              values: ['BRONZE', 'SILVER', 'GOLD', 'PLATINUM']
+              arguments:
+                values:
+                  - BRONZE
+                  - SILVER
+                  - GOLD
+                  - PLATINUM
 
   - name: stg_products
     columns:
       - name: product_id
-        tests: [unique, not_null]
+        data_tests:
+          - unique
+          - not_null
+
       - name: unit_price
-        tests:
+        data_tests:
           - dbt_utils.accepted_range:
-              min_value: 0
-              inclusive: false
+              arguments:
+                min_value: 0
+                inclusive: false
 
   - name: stg_stores
     columns:
       - name: store_id
-        tests: [unique, not_null]
+        data_tests:
+          - unique
+          - not_null
+
       - name: store_type
-        tests:
+        data_tests:
           - accepted_values:
-              values: ['ONLINE', 'PHYSICAL']
+              arguments:
+                values:
+                  - ONLINE
+                  - PHYSICAL
 
   - name: stg_orders
     columns:
       - name: order_id
-        tests: [unique, not_null]
+        data_tests:
+          - unique
+          - not_null
+
       - name: customer_id
-        tests:
+        data_tests:
           - not_null
           - relationships:
-              to: ref('stg_customers')
-              field: customer_id
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+
       - name: order_status
-        tests:
+        data_tests:
           - accepted_values:
-              values: ['COMPLETED', 'CANCELLED', 'REFUNDED', 'PENDING']
+              arguments:
+                values:
+                  - COMPLETED
+                  - CANCELLED
+                  - REFUNDED
+                  - PENDING
 
   - name: stg_order_items
     columns:
       - name: order_item_id
-        tests: [unique, not_null]
+        data_tests:
+          - unique
+          - not_null
+
       - name: order_id
-        tests:
+        data_tests:
           - not_null
           - relationships:
-              to: ref('stg_orders')
-              field: order_id
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
+
       - name: product_id
-        tests:
+        data_tests:
           - not_null
           - relationships:
-              to: ref('stg_products')
-              field: product_id
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+
       - name: quantity
-        tests:
+        data_tests:
           - dbt_utils.accepted_range:
-              min_value: 0
-              inclusive: false
+              arguments:
+                min_value: 0
+                inclusive: false
 
   - name: stg_inventory_snapshots
     columns:
       - name: store_id
-        tests:
+        data_tests:
           - relationships:
-              to: ref('stg_stores')
-              field: store_id
+              arguments:
+                to: ref('stg_stores')
+                field: store_id
+
       - name: product_id
-        tests:
+        data_tests:
           - relationships:
-              to: ref('stg_products')
-              field: product_id
+              arguments:
+                to: ref('stg_products')
+                field: product_id
