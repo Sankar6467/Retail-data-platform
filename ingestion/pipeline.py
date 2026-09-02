@@ -90,6 +90,7 @@ def process_file(client: SnowflakeClient, database: str, data_dir: str,
 
 
 def run(data_dir: str, only: list[str] | None) -> int:
+    pipeline_start = datetime.now(timezone.utc)
     cfg = SnowflakeConfig.from_env()
     batch_id = new_batch_id()
     logger.info("Starting ingestion run batch_id=%s", batch_id)
