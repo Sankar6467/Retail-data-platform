@@ -116,9 +116,9 @@ GRANT ALL ON FUTURE SCHEMAS IN DATABASE RETAIL_DB TO ROLE RETAIL_ADMIN;
 -- ---------------------------------------------------------------------
 -- 7. USER -> ROLE ASSIGNMENT
 -- ---------------------------------------------------------------------
-GRANT ROLE RETAIL_ADMIN TO USER SANKAR6467;
-ALTER USER SANKAR6467 SET DEFAULT_ROLE = RETAIL_ADMIN;
-ALTER USER SANKAR6467 SET DEFAULT_WAREHOUSE = RETAIL_TRANSFORM_WH;
+GRANT ROLE RETAIL_ADMIN TO USER SANKAR6495;
+ALTER USER SANKAR6495 SET DEFAULT_ROLE = RETAIL_ADMIN;
+ALTER USER SANKAR6495 SET DEFAULT_WAREHOUSE = RETAIL_TRANSFORM_WH;
 
 -- ---------------------------------------------------------------------
 -- 8. RESOURCE MONITOR - governance guardrail against runaway trial credit burn
