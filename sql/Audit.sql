@@ -3,6 +3,9 @@
 -- AUDIT.INGESTION_RUN_LOG
 -- One row per (file, batch) load attempt - powers observability
 -- ---------------------------------------------------------------------
+
+USE DATABASE RETAIL_RAW_DB;
+
 CREATE TABLE IF NOT EXISTS AUDIT.INGESTION_RUN_LOG (
     run_log_id        NUMBER AUTOINCREMENT START 1 INCREMENT 1,
     batch_id          VARCHAR(100),
