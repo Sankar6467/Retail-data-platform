@@ -1,0 +1,50 @@
+name: Retail Platform CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test-deploy:
+
+    runs-on: ubuntu-latest
+
+    env:
+      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+      SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Python Unit Tests
+        run: |
+          pytest
+
+      - name: Install dbt
+        run: |
+          pip install dbt-core dbt-snowflake
+
+      - name: Install dbt Packages
+        run: |
+          dbt deps
+
+      - name: Run dbt Build
+        run: |
+          dbt build
+    
+      - name: Run dbt Tests
+        run: |
+          dbt test
