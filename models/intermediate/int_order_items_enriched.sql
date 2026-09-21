@@ -11,7 +11,6 @@ orders as (
 products as (
     select * from {{ ref('stg_products') }}
 ),
-
 joined as (
     select
         oi.order_item_id,
@@ -28,10 +27,11 @@ joined as (
         oi.line_total,
         p.unit_cost,
         (oi.line_total - (p.unit_cost * oi.quantity)) as gross_margin_amount,
-        {{ safe_divide(
-            'oi.line_total - (p.unit_cost * oi.quantity)',
-            'oi.line_total'
-        ) }} as gross_margin_pct
+        ROUND(
+    (oi.line_total - (p.unit_cost * oi.quantity))
+    / NULLIF(oi.line_total,0),
+    6
+) as gross_margin_pct
     from order_items oi
     inner join orders o on oi.order_id = o.order_id
     left join products p on oi.product_id = p.product_id
