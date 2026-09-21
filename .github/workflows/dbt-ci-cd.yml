@@ -27,11 +27,11 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r ingestion/requirements.txt
 
       - name: Run Python Unit Tests
         run: |
-          pytest
+          pytest ingestion/tests
 
       - name: Install dbt
         run: |
