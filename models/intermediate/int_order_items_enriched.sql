@@ -3,7 +3,6 @@
 with order_items as (
     select * from {{ ref('stg_order_items') }}
 ),
-
 orders as (
     select * from {{ ref('stg_orders') }}
 ),
