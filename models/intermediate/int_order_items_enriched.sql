@@ -25,21 +25,15 @@ joined as (
         oi.line_total,
         p.unit_cost,
         (oi.line_total - (p.unit_cost * oi.quantity)) as gross_margin_amount,
-<<<<<<< HEAD
-        ROUND(
-    (oi.line_total - (p.unit_cost * oi.quantity))
-    / NULLIF(oi.line_total,0),
-    6
-) as gross_margin_pct
-=======
-        (oi.line_total - (p.unit_cost * oi.quantity)) as gross_margin_amount,
-        ROUND(
-        (oi.line_total - (p.unit_cost * oi.quantity))
-        / NULLIF(oi.line_total,0),6) as gross_margin_pct
->>>>>>> b8ae4deb07453803f5aeceb8bf9d3e40f5080f7c
+        round(
+            (oi.line_total - (p.unit_cost * oi.quantity))
+            / nullif(oi.line_total, 0),
+            6
+        ) as gross_margin_pct
     from order_items oi
-    inner join orders o on oi.order_id = o.order_id
-    left join products p on oi.product_id = p.product_id
+    inner join orders o
+        on oi.order_id = o.order_id
+    left join products p
+        on oi.product_id = p.product_id
 )
-
 select * from joined
